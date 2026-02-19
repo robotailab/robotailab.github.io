@@ -1,0 +1,17 @@
+title: Robotics & A.I. Lab.
+email: lab@example.com
+description: English-only lab website template
+baseurl: ""
+url: ""
+markdown: kramdown
+permalink: pretty
+
+collections:
+  pages:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

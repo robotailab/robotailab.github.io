@@ -1,0 +1,581 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Publications · Robotics & A.I. Lab.</title>
+    <meta name="description" content="English-only lab website template">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="/assets/img/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+    <style>
+      .pub-list {
+        list-style: none;
+        padding-left: 0;
+        counter-reset: pub var(--pub-count);
+      }
+      .pub-list > li {
+        counter-increment: pub -1;
+        position: relative;
+        padding-left: 3rem;
+      }
+      .pub-list > li::before {
+        content: "[" counter(pub) "] ";
+        font-weight: 600;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 2.5rem;
+        text-align: right;
+      }
+      .prof-photo {
+        height: 181px;
+        width: auto;
+        object-fit: contain;
+        display: block;
+      }
+      .hero-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+      .highlight-img {
+        width: 100%;
+        height: 360px;
+        object-fit: fill;
+        display: block;
+      }
+      .equipment-img {
+        width: 100%;
+        max-height: 180px;
+        object-fit: contain;
+      }
+      .news-date-badge {
+        min-width: 86px;
+        text-align: center;
+        letter-spacing: 0.02em;
+      }
+      .news-link {
+        text-decoration: none;
+        white-space: nowrap;
+        color: inherit;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2px 8px;
+        border-radius: 999px;
+        gap: 6px;
+        border: 1px solid var(--bs-border-color);
+        background: rgba(var(--bs-body-color-rgb), 0.06);
+        font-weight: 600;
+        letter-spacing: 0.01em;
+        font-size: 0.82rem;
+        line-height: 1;
+      }
+      .news-link-text {
+        font-size: 0.82rem;
+        line-height: 1;
+      }
+      .news-link:hover {
+        background: rgba(var(--bs-body-color-rgb), 0.12);
+        text-decoration: none;
+      }
+      [data-bs-theme="dark"] .news-link:hover {
+        background: rgba(255, 255, 255, 0.15);
+      }
+      .navbar-brand-icon {
+        height: 32px;
+        width: auto;
+        object-fit: contain;
+        display: inline-block;
+        filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.35));
+      }
+      [data-bs-theme="dark"] .navbar-brand-icon {
+        filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.4));
+      }
+      .project-date {
+        font-variant-numeric: tabular-nums;
+        white-space: nowrap;
+      }
+      .project-date-cell,
+      .project-title-cell,
+      .project-org-cell {
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+      .project-badge {
+        letter-spacing: 0.01em;
+      }
+      .course-badge-graduate {
+        letter-spacing: 0.01em;
+      }
+      .course-badge {
+        min-width: 7.5rem;
+        text-align: center;
+      }
+      [data-bs-theme="dark"] .project-badge {
+        background-color: rgba(255, 255, 255, 0.14);
+        color: #f8f9fa;
+        border: 1px solid rgba(255, 255, 255, 0.25);
+      }
+      [data-bs-theme="dark"] .course-badge-graduate {
+        background-color: rgba(255, 255, 255, 0.18);
+        color: #f8f9fa;
+        border: 1px solid rgba(255, 255, 255, 0.30);
+      }
+      [data-bs-theme="dark"] .equipment-title-badge {
+        background-color: rgba(255, 255, 255, 0.14);
+        color: #f8f9fa;
+        border: 1px solid rgba(255, 255, 255, 0.25);
+      }
+      .pub-section-title {
+        scroll-margin-top: 96px;
+      }
+      .research-intro {
+        white-space: nowrap;
+      }
+    </style>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top border-bottom">
+  <div class="container">
+    <a class="navbar-brand fw-semibold d-inline-flex align-items-center gap-2" href="/">
+      <img class="navbar-brand-icon" src="/assets/img/logo.png" alt="">
+      Robotics &amp; A.I. Lab.
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="/people/" role="button" data-bs-toggle="dropdown" aria-expanded="false">People</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/people/professor/">Professor</a></li>
+            <li><a class="dropdown-item" href="/people/students/">Students</a></li>
+            <li><a class="dropdown-item" href="/people/alumni/">Alumni</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="/research/" role="button" data-bs-toggle="dropdown" aria-expanded="false">Research</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/research/">Research Overview</a></li>
+            <li><a class="dropdown-item" href="/projects/">Projects</a></li>
+            <li><a class="dropdown-item" href="/equipment/">Equipment</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="/publications/">Publications</a></li>
+        <li class="nav-item"><a class="nav-link" href="/courses/">Courses</a></li>
+        <li class="nav-item"><a class="nav-link" href="/news/">News</a></li>
+        <li class="nav-item"><a class="nav-link" href="/contact/">Contact</a></li>
+        <li class="nav-item d-flex align-items-center ms-lg-2">
+          <button class="btn btn-outline-secondary btn-sm d-inline-flex align-items-center justify-content-center" type="button" id="themeToggle" aria-label="Toggle dark mode">
+            <span class="theme-icon" data-theme="light" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="4"></circle>
+                <line x1="12" y1="2" x2="12" y2="5"></line>
+                <line x1="12" y1="19" x2="12" y2="22"></line>
+                <line x1="2" y1="12" x2="5" y2="12"></line>
+                <line x1="19" y1="12" x2="22" y2="12"></line>
+                <line x1="4" y1="4" x2="6" y2="6"></line>
+                <line x1="18" y1="18" x2="20" y2="20"></line>
+                <line x1="18" y1="6" x2="20" y2="4"></line>
+                <line x1="4" y1="20" x2="6" y2="18"></line>
+              </svg>
+            </span>
+            <span class="theme-icon d-none" data-theme="dark" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 14.5A9 9 0 1 1 9.5 3a7 7 0 0 0 11.5 11.5z"></path>
+              </svg>
+            </span>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <main class="flex-grow-1">
+      <section class="py-5">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-12">
+        <h1>Publications</h1>
+        <p class="text-muted mb-2">A collection of journal articles, conference papers, and other publications from the Robotics &amp; A.I. Lab.</p>
+        <div class="d-flex flex-wrap flex-lg-nowrap gap-2 mt-2">
+          
+          <a class="btn btn-outline-dark btn-sm fs-6 px-3 fw-semibold text-center" data-theme-btn="outline" href="#intl-journals">International Journals</a>
+          
+          <a class="btn btn-outline-dark btn-sm fs-6 px-3 fw-semibold text-center" data-theme-btn="outline" href="#domestic-journals">Domestic Journals</a>
+          
+          <a class="btn btn-outline-dark btn-sm fs-6 px-3 fw-semibold text-center" data-theme-btn="outline" href="#intl-confs">International Conferences</a>
+          
+          <a class="btn btn-outline-dark btn-sm fs-6 px-3 fw-semibold text-center" data-theme-btn="outline" href="#domestic-confs">Domestic Conferences</a>
+          
+          <a class="btn btn-outline-dark btn-sm fs-6 px-3 fw-semibold text-center" data-theme-btn="outline" href="#books">Books</a>
+          
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="mb-5" style="margin-bottom: 3rem;">
+      <h2 class="h4 mb-3 pub-section-title" id="intl-journals">International Journals</h2>
+      
+      
+      <ol class="mb-0 pub-list" style="--pub-count: 28;">
+        
+        <li class="mb-2">Ill-Woo Park, Junghyun Oh, and Suhan Park*, "Mechanical design of a giant human riding biped humanoid robot, Method II," International Journal of Humanoid Robotics, (accepted).</li>
+        
+        <li class="mb-2">Woonghee Lee, I Made Putra Arya Winata, Donghyun Lee, and Junghyun Oh*, "Dynamic prioritization and adaptive path planning for indoor multi-object navigation," International Journal of Control, Automation and Systems, vol. 23, no. 12, pp. 3576-3586, Dec. 2025.</li>
+        
+        <li class="mb-2">Jinhoon Wang, Jusang Jeong, and Junghyun Oh*, "Improving structure-from-motion and rendering quality for thermal image-based 3D Gaussian splatting," IEEE Access, vol. 11, pp. 149450-149461, Aug. 2025.</li>
+        
+        <li class="mb-2">Donghyun Lee, I Made Putra Arya Winata, Beomsu Cho, and Junghyun Oh*, "AKG-VO: Adaptive keyframe generation method for improving visual odometry in autonomous vehicles," Advanced Intelligent Systems, 2401119, July 2025.</li>
+        
+        <li class="mb-2">I Made Putra Arya Winata and Junghyun Oh*, "Lightweight extraction and segmentation with ghost convolutional and attention module integration for visual SLAM," International Journal of Control, Automation and Systems, vol. 22, no. 12, pp. 3595-3605, Dec. 2024.</li>
+        
+        <li class="mb-2">Changwan Han, I Made Putra Arya Winata, and Junghyun Oh*, "LiDAR point inpainting model using smoothness loss for SLAM in dynamic environment," International Journal of Advanced Robotic Systems, vol. 21, no. 6, p. 17298806241297424, Dec. 2024.</li>
+        
+        <li class="mb-2">Jihoon Jung, Donggil You, Kooksun Lee, and Junghyun Oh*, "3D radiation mapping using Gaussian process regression with intensity projection," Advanced Intelligent Systems, vol. 6, no. 7, p. 2300820, July 2024.</li>
+        
+        <li class="mb-2">Donggil You, Jihoon Jung, and Junghyun Oh*, "Enhancing low-light images for monocular visual odometry in challenging lighting conditions," International Journal of Control, Automation and Systems, vol. 21, no. 11, pp. 3528-3539, Nov. 2023.</li>
+        
+        <li class="mb-2">Hyeongjun Jeon and Junghyun Oh*, "SP-VO: RGB-D visual odometry using static parts toward dynamic environments," IEEE Access, vol. 11, pp. 47202-47211, May 2023.</li>
+        
+        <li class="mb-2">Changwan Han†, Hyeongjun Jeon†, Junghyun Oh, and Heungjae Lee*, "Dynamic order picking method for multi-UAV system in intelligent warehouse," Remote Sensing, vol. 14, no. 23, 6106, Dec. 2022.</li>
+        
+        <li class="mb-2">Minhan Yoon, Wonkeun Yu, Junghyun Oh, and Heungjae Lee*, "A Study on the harmonic resonance during energizing primary, restorative transmission systems: Korean power system case," Energies, vol. 15, no. 1, 290, Jan. 2022.</li>
+        
+        <li class="mb-2">Heungjae Lee, Wonkun Yu, Junghyun Oh*, Hyungsuk Kim, and Jinyoung Kim, "Development of an intelligent voltage control system for bulk power systems," Applied Sciences, vol. 11, no. 19, 9233, Oct. 2021.</li>
+        
+        <li class="mb-2">Seung Hwan Lee, Jung Hyun Oh*, and Ye Chan An, "A new range-only measurement-based glass line feature extraction method," Electronics Letters, vol. 57, no. 21, pp. 804-806, Oct. 2021.</li>
+        
+        <li class="mb-2">Junghyun Oh and Gyuho Eoh*, "Variational Bayesian approach to condition-invariant feature extraction for visual place recognition," Applied Sciences, vol. 11, no. 19, 8976, Sep. 2021.</li>
+        
+        <li class="mb-2">Junghyun Oh, Changwan Han, and Seunghwan Lee*, "Condition-invariant robot localization using global sequence alignment of deep features," Sensors, vol. 21, no. 12, 4103, June 2021.</li>
+        
+        <li class="mb-2">Heung-Jae Lee, Seong-Su Jhang, Won-Kun Yu*, and Jung-Hyun Oh, "Artificial neural network control of battery energy storage system to damp-out inter-area oscillations in power systems," Energies, vol. 12, no. 17, 3372, Sep. 2019.</li>
+        
+        <li class="mb-2">Beom H. Lee, Jae D. Jeon*, and Jung H. Oh, "Velocity obstacle based local collision avoidance for a holonomic elliptic robot," Autonomous Robots, vol. 41, no. 6, pp. 1347-1363, Aug. 2017.</li>
+        
+        <li class="mb-2">Gyuho Eoh*, Jae D. Jeon, Jung H. Oh, and Beom H. Lee, "Cooperative object transportation using parallel line formation with a circular shift," Robotica, vol. 35, no. 6, pp. 1341-1364, June 2017.</li>
+        
+        <li class="mb-2">J. H. Oh* and B. H. Lee, "Dynamic programming approach to visual place recognition in changing environments," Electronics Letters, vol. 53, no. 6, pp. 391-393, Mar. 2017.</li>
+        
+        <li class="mb-2">Seung-Hwan Lee, Jung H. Oh, and Beom H. Lee*, "Improved unscented FastSLAM using geometric information of particles," International Journal of Mechanical Engineering and Robotics Research, vol. 5, no. 1, pp. 43-46, Jan. 2016.</li>
+        
+        <li class="mb-2">Jung H. Oh*, Seung-Hwan Lee, and Beom H. Lee, "Accurate visual loop-closure detection using bag-of-words for multiple robots," Journal of Automation and Control Engineering, vol. 3, no. 5, pp. 354-359, Oct. 2015.</li>
+        
+        <li class="mb-2">Jung H. Oh*, Gyuho Eoh, and Beom H. Lee, "Appearance-based place recognition using whole-image BRISK for collaborative multi-robot localization," International Journal of Mechanical Engineering and Robotics Research, vol. 4, no. 3, pp. 264-268, July 2015.</li>
+        
+        <li class="mb-2">J. H. Oh*, J. D. Jeon, and B. H. Lee, "Place recognition for visual loop-closures using similarities of object graphs," Electronics Letters, vol. 51, no. 1, pp. 44-46, Jan. 2015.</li>
+        
+        <li class="mb-2">Doojin Kim*, Jung H. Oh, and Beom H. Lee, "Object recognition using image warping in an intelligent space," Applied Mechanics and Materials, vol. 2, no. 1, pp. 31-34, Mar. 2014.</li>
+        
+        <li class="mb-2">Jung H. Oh*, Doojin Kim, and Beom H. Lee, "An indoor localization system for mobile robots using an active infrared positioning sensor," Applied Mechanics and Materials, vol. 2, no. 1, pp. 35-38, Mar. 2014.</li>
+        
+        <li class="mb-2">Gyuho Eoh*, Jeong H. Oh, Seung-Hwan Lee, and Beom H. Lee, "Cooperative object transportation using connected robots," Applied Mechanics and Materials, vol. 313, pp. 903-907, Mar. 2013.</li>
+        
+        <li class="mb-2">Gyuho Eoh*, Kongwoo Lee, Jeong H. Oh, Seung-Hwan Lee, and Beom H. Lee, "Cooperative multiple-object towing with linked robots," Journal of Communication and Computer, vol. 10, no. 3, pp. 385-393, Mar. 2013.</li>
+        
+      </ol>
+      
+    </div>
+    
+    <div class="mb-5" style="margin-bottom: 3rem;">
+      <h2 class="h4 mb-3 pub-section-title" id="domestic-journals">Domestic Journals</h2>
+      
+      
+      <ol class="mb-0 pub-list" style="--pub-count: 10;">
+        
+        <li class="mb-2">오정현, "Physical AI의 개념과 핵심 기술 및 미래 전망," 한국콘텐츠학회지, 제23권, 2호, pp. 13-21, 2025년 12월.</li>
+        
+        <li class="mb-2">한상민, 오정현, "UGV의 인지적 자율성 향상을 위한 LLM 기반 전술 AI 프레임워크 설계 전략," 국방로봇학회논문집, 제4권, 4호, pp. 20-35, 2025년 10월.</li>
+        
+        <li class="mb-2">I Made Putra Arya Winata, 이동현, Ida Bagus Dwiweka Naratama, 오정현, "Leveraging large language model assistance on explicit object target prediction and navigation in unseen area," 제어로봇시스템학회논문지, 제31권, 8호, pp. 888-893, 2025년 8월.</li>
+        
+        <li class="mb-2">정주상, 이동현, I Made Putra Arya Winata, 유수정, 오정현, "스테레오 RGB-E를 이용한 동적 환경에서 강인한 SLAM 방법," 로봇학회논문지, 제20권, 2호, pp. 260-267, 2025년 6월.</li>
+        
+        <li class="mb-2">왕진훈, 정주상, 조범수, I Made Putra Arya Winata, 오정현, "열화상 이미지를 활용한 Gaussian Splatting 기반의 저조도 3D 렌더링 개선 방법," 로봇학회논문지, 제20권, 1호, pp. 104-111, 2025년 3월.</li>
+        
+        <li class="mb-2">정지훈, 유동길, 오정현, "가우시안 프로세스 회귀와 OctoMap을 이용한 3차원 방사선 지도 제작," 제어로봇시스템학회논문지, 제29권, 4호, pp. 320-324, 2023년 4월.</li>
+        
+        <li class="mb-2">유동길, 정지훈, 전형준, 한창완, 박일우, 오정현, "저조도 환경에서 Visual SLAM을 위한 이미지 개선 방법," 로봇학회논문지, 제18권, 1호, pp. 66-71, 2023년 3월.</li>
+        
+        <li class="mb-2">이흥재, 오정현, "확장된 토폴로지를 갖는 배전변전소의 지능형 고장복구 알고리즘의 연구," 전기학회논문지, 제69권, 6호, pp. 846-854, 2020년 6월.</li>
+        
+        <li class="mb-2">오정현, 이범희, "Deep convolutional auto-encoder를 이용한 환경 변화에 강인한 장소 인식," 로봇학회논문지, 제14권, 1호, pp. 8-13, 2019년 3월.</li>
+        
+      </ol>
+      
+    </div>
+    
+    <div class="mb-5" style="margin-bottom: 3rem;">
+      <h2 class="h4 mb-3 pub-section-title" id="intl-confs">International Conferences</h2>
+      
+      
+      <ol class="mb-0 pub-list" style="--pub-count: 21;">
+        
+        <li class="mb-2">I Made Putra Arya Winata, Donghyun Lee, Ida Bagus Dwiweka Naratama, and Junghyun Oh, "Attention-guided semantic navigation learning from pose, goal text, and visual via exponential reward functions," in Proceedings of the International Conference on Control, Automation, and Systems, Incheon, South Korea, Nov. 4-7, 2025, pp. 139-144.</li>
+        
+        <li class="mb-2">Woonghee Lee, I Made Putra Arya Winata, Donghyun Lee, and Junghyun Oh, "Dynamic target prioritization and adaptive path planning for indoor multi-object navigation," in Proceedings of the International Conference on Control, Automation, and Systems, Incheon, South Korea, Nov. 4-7, 2025, pp. 133-135.</li>
+        
+        <li class="mb-2">Donghyun Lee, Jinhoon Wang, Beomsu Cho, and Junghyun Oh, "Enhancing neural implicit representation based SLAM performance through depth image smoothing utilizing depth aware gradients," in Proceedings of the International Conference on Control, Automation, and Systems, Jeju, South Korea, Oct. 29-Nov. 1, 2024, pp. 1556-1559.</li>
+        
+        <li class="mb-2">Jinhoon Wang, Woonghee Lee, I Made Putra Arya Winata, and Junghyun Oh, "Similar image avoidance policy based on image similarity measurement for next best view," in Proceedings of the International Conference on Control, Automation, and Systems, Jeju, South Korea, Oct. 29-Nov. 1, 2024, pp. 1552-1555.</li>
+        
+        <li class="mb-2">Jusang Jeong, Beomsu Cho, and Junghyun Oh, "EOGS: Event only 3D Gaussian splatting for 3D reconstruction," in Proceedings of the International Conference on Control, Automation, and Systems, Jeju, South Korea, Oct. 29-Nov. 1, 2024, pp. 1550-1551.</li>
+        
+        <li class="mb-2">Donggil You, Jihoon Jung, Jusang Jeong, and Junghyun Oh, "Enhancing depth image with richer convolution feature for improved perception," in Proceedings of the International Conference on Control, Automation, and Systems, Yeosu, South Korea, Oct. 17-20, 2023, pp. 1866-1869.</li>
+        
+        <li class="mb-2">Jihoon Jung, Donggil You, Woonghee Lee and Junghyun Oh, "PR-ShadowNet: Shadow removal for long-term place recognition," in Proceedings of the International Conference on Control, Automation, and Systems, Yeosu, South Korea, Oct. 17-20, 2023, pp. 852-855.</li>
+        
+        <li class="mb-2">Changwan Han, Hyeongjun Jeon, Donggil You, and Junghyun Oh, "Detection of moving objects in complex urban environments based on residual-image and segment," in Proceedings of the International Conference on Control, Automation, and Systems, Busan, South Korea, Nov. 27-Dec. 1, 2022, pp. 700-701.</li>
+        
+        <li class="mb-2">Hyeongjun Jeon, Changwan Han, Donggil You, and Junghyun Oh, "RGB-D visual SLAM algorithm using scene flow and conditional random field in dynamic environments," in Proceedings of the International Conference on Control, Automation, and Systems, Busan, South Korea, Nov. 27-Dec. 1, 2022, pp. 129-134.</li>
+        
+        <li class="mb-2">Chan H. Kim and Jung H. Oh, "Dynamic window approach to coverage path planning for mobile robots with limited visibility," presented at the International Conference on Control, Automation, and Systems Workshop, Jeju, South Korea, Oct. 12-15, 2021.</li>
+        
+        <li class="mb-2">Jung H. Oh, Chan Hyeok Kim, and Dong Gyu Lee, "Coverage planning for security robots with limited field of view," presented at the International Conference on Control, Automation, and Systems Workshop, Busan, South Korea, Oct. 13-16, 2020.</li>
+        
+        <li class="mb-2">Jung H. Oh and Heung-Jae Lee, "Object-based place recognition for mobile robots using Laplace’s rule of succession," in Proceedings of the International Conference on Computer and Automation Engineering, Sydney, Australia, Feb. 14-16, 2020, pp. 200-204.</li>
+        
+        <li class="mb-2">Jung H. Oh and Heung-Jae Lee, "Global alignment of deep features for robot localization in changing environment," in Proceedings of the European Conference on Electrical Engineering and Computer Science, Athens, Greece, Dec. 28-30, 2019, pp. 72-75.</li>
+        
+        <li class="mb-2">Heung-Jae Lee and Jung-Hyun Oh, "Restoration aid expert system for power system," in Proceedings of the International Conference on Power, Energy and Electrical Engineering, London, UK, Dec. 19-21, 2019, vol. 152.</li>
+        
+        <li class="mb-2">Jung H. Oh and Beom H. Lee, "Object map building on various terrains for a wheeled mobile robot," in Proceedings of the IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems, Daegu, South Korea, Nov. 16-18, 2017, pp. 378-383.</li>
+        
+        <li class="mb-2">Kyunghoon Cho, Geonho Cha, Jung H. Oh, Beom H. Lee, and Songwhai Oh, "Surface Recognition Using Dash Robot," in Proceedings of the International Conference on Control, Automation and Systems, Jeju, South Korea, Oct. 18-21, 2017, pp. 1680-1681.</li>
+        
+        <li class="mb-2">Jung H. Oh, H. S. Lee, and Beom H. Lee, "Unsupervised feature learning for sequence-based loop closure detection in changing environments," in Proceedings of the International Conference on Control, Automation and Systems, Gyeongju, South Korea, Oct. 16-19, 2016, pp. 1518-1520.</li>
+        
+        <li class="mb-2">Wonsok Yoo, Jae Do Jeon, Jung H. Oh, and Beom H. Lee, "Loop closure detection with 2D laser range finder for graph SLAM in indoor environments," in Proceedings of the International Conference on Control, Automation and Systems, Gyeongju, South Korea, Oct. 16-19, 2016, pp. 1514-1517.</li>
+        
+        <li class="mb-2">Hunsue Lee, Junghyun Oh, Jaedo Jeon, and Beomhee Lee, "Efficient deployment of energy-constrained unmanned aerial vehicles in 3-dimensional space," in Proceedings of the International Conference on Informatics in Control, Automation, and Robotics, Lisbon, Portugal, July 29-31, 2016, pp. 446-451.</li>
+        
+        <li class="mb-2">H. S. Lee, J. H. Oh, and B. H. Lee, "Design and implementation for multiplerobot deployment in intelligent space," in Proceedings of the IEEE International Conference on Emerging Technologies and Factory Automation, Luxembourg, Luxembourg, Sep. 8-11, 2015, pp. 1-4.</li>
+        
+      </ol>
+      
+    </div>
+    
+    <div class="mb-5" style="margin-bottom: 3rem;">
+      <h2 class="h4 mb-3 pub-section-title" id="domestic-confs">Domestic Conferences</h2>
+      
+      
+      <ol class="mb-0 pub-list" style="--pub-count: 64;">
+        
+        <li class="mb-2">Ida Bagus Dwiweka Naratama, I Made Putra Arya Winata, 송유리, 오정현, "VQ-LaMa: 효율적 탐사를 위한 이산적 의미 지도 인페인팅," 한국로봇종합학술대회, 2026년 2월, pp. 858-860.</li>
+        
+        <li class="mb-2">송유리, 조범수, I Made Putra Arya Winata, 오정현, "실내 가스 누출원 위치 추정을 위한 근접도 보정 탐사 방법," 한국로봇종합학술대회, 2026년 2월, pp. 666-667.</li>
+        
+        <li class="mb-2">강순혁, 김선국, 위민재, 진철호, 오정현, "베이지안 추론과 비전 인지를 결합한 LLM 기반 자율 탐색 모바일 로봇," 한국로봇종합학술대회, 2026년 2월, pp. 13-16.</li>
+        
+        <li class="mb-2">조범수, 오상철, 송유리, 오정현, "효율적 능동 재구성을 위한 동적 거리 비용 기반 탐사 방법," 한국로봇종합학술대회, 2026년 2월, pp. 5-6.</li>
+        
+        <li class="mb-2">Ida Bagus Dwiweka Naratama, 송유리, 오정현, "Integrated simulation framework for construction-site quadrupted navigation," 한국건설관리학회정기학술발표대회, 2025년 11월, pp. 273-274.</li>
+        
+        <li class="mb-2">고건우, 안수진, 유희성, 선찬우, 오정현, "파이프의 효율적 관리를 위한 원격 탐사 로봇," 제어로봇시스템학회학술대회, 2025년 6월, pp. 1030-1031.</li>
+        
+        <li class="mb-2">강순혁, 위민재, 진철호, 김선국, 오정현, "LLM 기반 특정 대상 탐색을 위한 자율주행 모바일 로봇," 제어로봇시스템학회학술대회, 2025년 6월, pp. 1028-1029.</li>
+        
+        <li class="mb-2">조범수, 왕진훈, 이동현, 송유리, 오정현, "3D Scene Graph 노드 관리를 위한 LLM 입력 토큰 조절 방법," 제어로봇시스템학회학술대회, 2025년 6월, pp. 849-850.</li>
+        
+        <li class="mb-2">이동현, 이웅희, 왕진훈, 조범수, 오정현, "복잡한 실내 환경에서의 객체 내비게이션을 위한 의미론적 지도 향상 방법," 제어로봇시스템학회학술대회, 2025년 6월, pp. 649-650.</li>
+        
+        <li class="mb-2">I Made Putra Arya Winata, 이동현, Ida Bagus Dwiweka Naratama, 오정현, "명시적 객체 위치 예측 및 미지 영역 탐색에서의 LLM 활용 방법," 제어로봇시스템학회학술대회, 2025년 6월, pp. 644-648.</li>
+        
+        <li class="mb-2">이동현, 이웅희, 왕진훈, 송유리, 오정현, "가우시안 스플래팅 SLAM을 위한 저조도 이미지 개선 방법," 한국로봇종합학술대회, 2025년 2월, pp. 1157-1158.</li>
+        
+        <li class="mb-2">I Made Putra Arya Winata, 왕진훈, 강순혁, 오정현, "장소 인식을 위한 시각 언어 모델 추출 기반 교차 시점 접근법," 한국로봇종합학술대회, 2025년 2월, pp. 422-423.</li>
+        
+        <li class="mb-2">조범수, 정주상, 이동현, 왕진훈, 오정현, "가우시안 스플래팅 기반 SLAM 성능 향상을 위한 슬라이딩 윈도우를 활용한 서브맵 생성 방법," 한국로봇종합학술대회, 2025년 2월, pp. 403-404.</li>
+        
+        <li class="mb-2">정윤석, 염준우, 홍소현, 오정현, "스워브 드라이브와 6D 자세 추정을 활용한 킥보드 자동 수거 시스템," 한국로봇종합학술대회, 2025년 2월, pp. 343-346.</li>
+        
+        <li class="mb-2">정윤석, 염준우, 홍소현, 고우빈, 오정현, "킥보드 수거 로봇 시스템," 제어로봇시스템학회학술대회, 2024년 7월, pp. 1010-1011.</li>
+        
+        <li class="mb-2">이일주, 장유선, 안준호, 최은선, 오정현, "로버 플랫폼에서 매니퓰레이터를 이용한 효율적인 토크 제어를 위한 동적 무게 중심 조정," 제어로봇시스템학회학술대회, 2024년 7월, pp. 994-995.</li>
+        
+        <li class="mb-2">I Made Putra Arya Winata, 이웅희, 조범수, 오정현, "Lightweight Semantic Segmentation based on Attention Module for Visual SLAM," 제어로봇시스템학회학술대회, 2024년 7월, pp. 474-480.</li>
+        
+        <li class="mb-2">왕진훈, 염준우, 박효진, 최나은, 송유리, 오정현, "Active 3D Reconstruction을 위한 효율적인 경로 계획: 비용함수 가중치 조정에 기반한 접근," 제어로봇시스템학회학술대회, 2024년 7월, pp. 472-473.</li>
+        
+        <li class="mb-2">이웅희, 왕진훈, 송유리, 홍성진, 오정현, "유니티 기반 지도 작성 및 사용자 위치 실시간 시각화," 제어로봇시스템학회학술대회, 2024년 7월, pp. 203-204.</li>
+        
+        <li class="mb-2">이동현, 정주상, 조범수, 정지훈, 오정현, "디퓨전 모델 기반 이동 카메라 프레임 보간 방법," 제어로봇시스템학회학술대회, 2024년 7월, pp. 201-202.</li>
+        
+        <li class="mb-2">정주상, 정지훈, 이동현, 오정현, "이벤트 기반의 가우시안 스플래팅," 제어로봇시스템학회학술대회, 2024년 7월, pp. 192-198.</li>
+        
+        <li class="mb-2">정지훈, 유동길, 김진영, 양지민, 이국선, 오정현, "교차 모달 장소 인식을 위한 생성 모델의 비교 및 분석," 한국로봇종합학술대회, 2024년 2월, pp. 514-515.</li>
+        
+        <li class="mb-2">정주상, 염준우, 이웅희, 왕진훈, 이동현, 오정현, "향상된 Visual odometry를 위한 반사광 제거 방법," 한국로봇종합학술대회, 2024년 2월, pp. 15-16.</li>
+        
+        <li class="mb-2">유동길, 정지훈, 이웅희, 오정현, "Visual Odometry를 위한 CycleGAN과 SSIM-loss 기반의 저조도 이미지 개선 방법," 제어로봇시스템학회학술대회, 2023년 6월, pp. 903-904.</li>
+        
+        <li class="mb-2">이재원, 주효석, 안충길, 김혜도, 오정현, "다중 자율 로봇 주차 시스템," 제어로봇시스템학회학술대회, 2023년 6월, pp. 600-601.</li>
+        
+        <li class="mb-2">김태현, 이중환, 장동준, 문준영, 오정현, "4족 보행 로봇의 흔들림 최소화를 위한 디딤율 조절," 제어로봇시스템학회학술대회, 2023년 6월, pp. 596-597.</li>
+        
+        <li class="mb-2">이동현, 김진기, 장우현, 허정범, 오정현, "CycleSquareGAN: 장기간 로봇 자율주행을 위한 이미지 변환," 제어로봇시스템학회학술대회, 2023년 6월, pp. 520-521.</li>
+        
+        <li class="mb-2">정지훈, 유동길, 정주상, 오정현, "역제곱 법칙 커널의 가우시안 프로세스 회귀를 이용한 2차원 방사선 지도 제작," 제어로봇시스템학회학술대회, 2023년 6월, pp. 283-284.</li>
+        
+        <li class="mb-2">김찬혁, 오정현, "순회 외판원 문제 해결을 위한 혼합형 유전 알고리즘," 한국로봇종합학술대회, 2023년 2월, pp. 748-749.</li>
+        
+        <li class="mb-2">정지훈, 유동길, 한창완, 전형준, 오정현, "반복 구조 환경을 위한 BRISK 특징 기반의 Visual SLAM," 한국로봇종합학술대회, 2023년 2월, pp. 591-592.</li>
+        
+        <li class="mb-2">정지훈, 유동길, 한창완, 전형준, 박일우, 오정현, "가우시안 프로세스 회귀를 이용한 방사선 지도 제작," 호남제주그랜드합동학술대회, 2022년 12월, pp. 75-76.</li>
+        
+        <li class="mb-2">전형준, 한창완, 유동길, 정지훈, 오정현, 박일우, "동적인 환경을 위한 LoopNet 기반의 Visual SLAM," 호남제주그랜드합동학술대회, 2022년 12월, pp. 66-67.</li>
+        
+        <li class="mb-2">장재우, 최석원, 문석준, 김태겸, 오정현, "모듈 장착형 다용도 로봇 플랫폼," 제어로봇시스템학회학술대회, 2022년 6월, pp. 728-729.</li>
+        
+        <li class="mb-2">나준희, 김현민, 김창범, 강두웅, 오정현, "딥러닝 기반 실종자 식별 지능형 CCTV," 제어로봇시스템학회학술대회, 2022년 6월, pp. 726-727.</li>
+        
+        <li class="mb-2">유동길, 전형준, 한창완, 오정현, "2D lidar와 카메라 센서 퓨전을 통한 사람 인식 및 추적 기술," 제어로봇시스템학회학술대회, 2022년 6월, pp. 683-684.</li>
+        
+        <li class="mb-2">전형준, 한창완, 유동길, 오정현, "기하학적 일관성을 이용한 RGB-D 카메라 기반의 동적물체 인식 방법," 한국로봇종합학술대회, 2022년 5월, pp. 262-263.</li>
+        
+        <li class="mb-2">한창완, 전형준, 유동길, 오정현, "경계석 정보를 이용한 3D 라이다 센서 기반의 도로 검출 방법," 한국로봇종합학술대회, 2022년 5월, pp. 260-261.</li>
+        
+        <li class="mb-2">유동길, 김동환, 김선우, 전형준, 한창완, 오정현, "센서 퓨전 기반의 마스크 착용 탐지 및 추적 로봇," 한국로봇종합학술대회, 2022년 5월, pp. 234-235.</li>
+        
+        <li class="mb-2">전형준, 한창완, 유동길, 박희숙, 김철홍, 오정현, "WebRTC를 이용한 고속 주행 모바일 로봇 제어 방법," 대한전자공학회, 2021년 11월, pp. 598-601.</li>
+        
+        <li class="mb-2">김찬혁, 오정현, "모바일 로봇의 효율적인 경로 계획을 위한 향상된 Q-러닝 알고리즘," 정보및제어학술대회, 2021년 10월, pp. 426-427.</li>
+        
+        <li class="mb-2">최석원, 문석준, 오정현, "탐색 윈도우 기반의 멀티 로봇 충돌 방지 방법," 정보및제어학술대회, 2021년 10월, pp. 365-366.</li>
+        
+        <li class="mb-2">문석준, 최석원, 오정현, "자율주행자동차를 위한 차선 인식을 통한 픽셀 기반 PID 제어," 정보및제어학술대회, 2021년 10월, pp. 363-364.</li>
+        
+        <li class="mb-2">전형준, 한창완, 유동길, 이흥재, 오정현, "자율 주행 레이싱 로봇을 위한 보로노이 다이어그램 기반의 지역 경로 계획방법," 정보및제어학술대회, 2021년 10월, pp. 361-362.</li>
+        
+        <li class="mb-2">전형준, 한창완, 오정현, "Voting 기법을 활용한 NetVLAD기반의 다시점 장소 검색 방법," 한국로봇종합학술대회, 2021년 5월, pp. 97-98.</li>
+        
+        <li class="mb-2">한창완, 전형준, 오정현, "변화하는 환경에 강인한 시퀸스 기반의 멀티 로봇 랑데부 검출 방법," 한국로봇종합학술대회, 2021년 5월, pp. 95-96.</li>
+        
+        <li class="mb-2">이동규, 김찬혁, 오정현, "동적 환경에서 이동 로봇의 감시 임무 수행을 위한 포텐셜 함수 기반 주행 계획," 한국로봇종합학술대회, 2020년 8월, pp. 527-528.</li>
+        
+        <li class="mb-2">김찬혁, 이동규, 오정현, "애커만 모바일 로봇을 위한 회전 비용을 고려한 순회 판매원 문제의 해결," 한국로봇종합학술대회, 2020년 8월, pp. 515-516.</li>
+        
+        <li class="mb-2">이흥재, 장성수, 유원근, 오정현, 송찬호, "딥러닝을 이용한 광역계통 진동감쇄 제어기의 연구," 대한전기학회, 2019년 10월, pp. 193-194.</li>
+        
+        <li class="mb-2">오정현, 김한준, 이범희, "변화하는 환경에서의 장소 인식을 위한 Deep Auto-encoder 기반 이미지 생성 방법," 한국로봇종합학술대회, 2018년 1월, pp. 348-349.</li>
+        
+        <li class="mb-2">김한준, 오정현, 이범희, "3차원 객체 모델링에서 주성분 분석을 이용한 관찰 위치 선정 및 로봇 주행 제어," 한국로봇종합학술대회, 2017년 2월, pp. 592-593.</li>
+        
+        <li class="mb-2">오정현, 이범희, "Convolutional Auto-encoder를 이용한 시퀀스 기반의 장소 인식 방법," 한국로봇종합학술대회, 2017년 2월, pp. 580-581.</li>
+        
+        <li class="mb-2">전재도, 오정현, 유원석, 이범희, "Fourier Descriptor를 활용한 소형 로봇의 물체 분류," 한국로봇종합학술대회, 2016년 1월, pp. 460-461.</li>
+        
+        <li class="mb-2">어규호, 전재도, 오정현, 이범희, "장애물 벽을 이용한 다수 물체 수송 방법," 한국로봇종합학술대회, 2016년 1월, pp. 446-447.</li>
+        
+        <li class="mb-2">김한준, 오정현, 유현우, 이범희, "동적 환경 내 Scene Flow를 이용한 움직이는 객체 탐지," 한국로봇종합학술대회, 2016년 1월, pp. 327-328.</li>
+        
+        <li class="mb-2">오정현, 전재도, 유원석, 이범희, "소형 로봇의 저해상도 멀티 카메라를 이용한 물체 높이 추정 방법," 한국로봇종합학술대회, 2016년 1월, pp. 325-326.</li>
+        
+        <li class="mb-2">이승환, 전재도, 유원석, 오정현, 이범희, "다개체 로봇 루프 클로징 이벤트를 이용한 새로운 협조적 SLAM 프레임워크," 한국로봇종합학술대회, 2015년 5월, pp. 247-250.</li>
+        
+        <li class="mb-2">오정현, 어규호, 이범희, "동적 환경에서 Whole Image BRISK를 이용한 Loop closure 검출 방법," 한국로봇종합학술대회, 2015년 5월, pp. 81-84.</li>
+        
+        <li class="mb-2">문지훈, 오정현, 이범희, "적외선 센서 기반 적응적 실내 위치 인식 시스템," 한국로봇종합학술대회, 2014년 6월, pp. 494-497.</li>
+        
+        <li class="mb-2">오정현, 전재도, 이범희, "Generalized rule of succession을 이용한 객체 기반의 장소 인식 방법," 한국로봇종합학술대회, 2014년 6월, pp. 341-344.</li>
+        
+        <li class="mb-2">이승환, 오정현, 조영조, 이범희, "강인한 협조적 SLAM을 위한 장소인식 및 루프 클로징 시스템," 정보및제어학술대회, 2013년 10월, pp. 167-168.</li>
+        
+        <li class="mb-2">김두진, 이태석, 오정현, 이범희, "지능형 공간 내에서 카메라 변환 기반 Handover 탐지," 한국로봇종합학술대회, 2013년 5월, pp. 374-376.</li>
+        
+        <li class="mb-2">오정현, 이승환, 김지웅, 김두진, 이범희, "적외선 센서를 이용한 모바일 로봇의 실내 위치 인식 시스템," 한국로봇종합학술대회, 2013년 5월, pp. 11-14.</li>
+        
+        <li class="mb-2">어규호, 이공우, 오정현, 이범희, "신뢰도를 이용한 최적 다개체 로봇 시스템 설계," 한국로봇종합학술대회, 2012년 6월, pp. 355-358.</li>
+        
+      </ol>
+      
+    </div>
+    
+    <div class="mb-5" style="margin-bottom: 3rem;">
+      <h2 class="h4 mb-3 pub-section-title" id="books">Books</h2>
+      
+      
+      <ol class="mb-0 pub-list" style="--pub-count: 5;">
+        
+        <li class="mb-2">박광현, 오정현, "로봇으로 배우는 파이썬 인공지능," 콘셉트온, ISBN 979-11-979980-9-6, 2023년 12월.</li>
+        
+        <li class="mb-2">허돈, 송승호, 김진영, 김형석, 이기백, 오정현, 박병준, "핵심 기술로 알아보는 그린-디지털 뉴딜," 디자인21, ISBN 978-89-6131-075-8, 2021년 10월.</li>
+        
+        <li class="mb-2">윤지영, 김민규, 오영근, 오정현, "제4차 산업혁명 시대의 형사사법적 대응 및 발전방향(III): 가상현실(VR)과 3D 프린팅," 한국형사정책연구원, ISBN 979-11-89908-90-4, 2020년 12월.</li>
+        
+        <li class="mb-2">이흥재, 김진영, 김형석, 박병준, 허돈, 송승호, 이기백, 오정현, "에너지 클라우드 시스템," 경성문화사, ISBN 979-11-5698-276-0, 2019년 12월.</li>
+        
+      </ol>
+      
+    </div>
+    
+  </div>
+</section>
+
+    </main>
+
+    <footer class="mt-auto py-4 border-top bg-body-tertiary">
+  <div class="container text-center">
+    <div class="small">Copyright © 2019-2026 Robotics &amp; Artificial Intelligence Laboratory, Kwangwoon University. All Rights Reserved.</div>
+  </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      (function () {
+        const root = document.documentElement;
+        const saved = localStorage.getItem("theme");
+        if (saved) root.setAttribute("data-bs-theme", saved);
+
+        const btn = document.getElementById("themeToggle");
+        if (!btn) return;
+
+        function syncIcon(theme) {
+          const icons = btn.querySelectorAll(".theme-icon");
+          icons.forEach(icon => {
+            const isDark = icon.dataset.theme === "dark";
+            icon.classList.toggle("d-none", theme === "dark" ? !isDark : isDark);
+          });
+        }
+
+        function syncButtons(theme) {
+          const buttons = document.querySelectorAll('[data-theme-btn="outline"]');
+          buttons.forEach(button => {
+            button.classList.toggle("btn-outline-dark", theme !== "dark");
+            button.classList.toggle("btn-outline-light", theme === "dark");
+          });
+        }
+
+        const initialTheme = root.getAttribute("data-bs-theme") || "light";
+        syncIcon(initialTheme);
+        syncButtons(initialTheme);
+
+        btn.addEventListener("click", () => {
+          const current = root.getAttribute("data-bs-theme") || "light";
+          const next = current === "dark" ? "light" : "dark";
+          root.setAttribute("data-bs-theme", next);
+          localStorage.setItem("theme", next);
+          syncIcon(next);
+          syncButtons(next);
+        });
+      })();
+    </script>
+  </body>
+</html>

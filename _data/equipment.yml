@@ -1,0 +1,200 @@
+robots:
+  - name: AgileX Scout Mini
+    maker: AgileX
+    model: Scout Mini
+    year_label: "2024"
+    image: /assets/img/equipment/scoutmini.png
+    alt: AgileX Scout Mini
+    tags:
+      - Mobile
+      - Wheeled
+  - name: DJI Tello EDU
+    maker: DJI
+    model: Tello EDU
+    year_label: "2023"
+    image: /assets/img/equipment/telloedu.png
+    alt: DJI Tello EDU
+    tags:
+      - Aerial
+      - Quadcopter
+  - name: Pudu Robotics PuduBot
+    maker: Pudu Robotics
+    model: PuduBot
+    year_label: "2023"
+    image: /assets/img/equipment/pudubot.png
+    alt: Pudu Robotics PuduBot
+    tags:
+      - Mobile
+      - Service
+  - name: Unitree Go1 EDU
+    maker: Unitree
+    model: Go1 EDU
+    year_label: "2022"
+    image: /assets/img/equipment/go1edu.png
+    alt: Unitree Go1 EDU
+    tags:
+      - Mobile
+      - Quadruped
+  - name: RAIL MARO
+    maker: RAIL
+    model: MARO
+    year_label: "2021"
+    image: /assets/img/equipment/maro.png
+    alt: RAIL MARO
+    tags:
+      - Mobile
+      - Wheeled
+      - Lab-developed
+  - name: RAIL MIA
+    maker: RAIL
+    model: MIA
+    year_label: "2021"
+    image: /assets/img/equipment/mia.png
+    alt: RAIL MIA
+    tags:
+      - Mobile
+      - Wheeled
+      - Lab-developed
+  - name: OpenSource JetRacer
+    maker: OpenSource
+    model: JetRacer
+    year_label: "2020"
+    image: /assets/img/equipment/jetracer.png
+    alt: OpenSource JetRacer
+    tags:
+      - Mobile
+      - Wheeled
+  - name: OpenSource JetBot
+    maker: OpenSource
+    model: JetBot
+    year_label: "2020"
+    image: /assets/img/equipment/jetbot.png
+    alt: OpenSource JetBot
+    tags:
+      - Mobile
+      - Wheeled
+  - name: Robotis TurtleBot3 Burger
+    maker: Robotis
+    model: TurtleBot3 Burger
+    year_label: "2019"
+    image: /assets/img/equipment/turtlebot3burger.png
+    alt: Robotis TurtleBot3 Burger
+    tags:
+      - Mobile
+      - Wheeled
+
+sensors:
+  - name: Hokuyo UST-10LX
+    maker: Hokuyo
+    model: UST-10LX
+    year_label: "2025"
+    image: /assets/img/equipment/ust10lx.png
+    alt: Hokuyo UST-10LX
+    tags:
+      - 2D LiDAR
+  - name: Livox Mid-360
+    maker: Livox
+    model: Mid-360
+    year_label: "2024"
+    image: /assets/img/equipment/mid360.png
+    alt: Livox Mid-360
+    tags:
+      - 3D LiDAR
+  - name: StereoLabs ZED 2i
+    maker: StereoLabs
+    model: ZED 2i
+    year_label: "2023"
+    image: /assets/img/equipment/zed2i.png
+    alt: StereoLabs ZED 2i
+    tags:
+      - Stereo Camera
+      - IMU
+  - name: Intel D435i
+    maker: Intel
+    model: D435i
+    year_label: "2021"
+    image: /assets/img/equipment/d435i.png
+    alt: Intel D435i
+    tags:
+      - RGB-D Camera
+      - IMU
+  - name: SLAMTEC RPLIDAR-A3
+    maker: SLAMTEC
+    model: RPLIDAR-A3
+    year_label: "2021"
+    image: /assets/img/equipment/rplidara3.png
+    alt: SLAMTEC RPLIDAR-A3
+    tags:
+      - 2D LiDAR
+  - name: E2Box EBIMU-9DOFV5
+    maker: E2Box
+    model: EBIMU-9DOFV5
+    year_label: "2021"
+    image: /assets/img/equipment/ebimu9dofv5.png
+    alt: E2Box EBIMU-9DOFV5
+    tags:
+      - IMU
+  - name: Velodyne VLP-16
+    maker: Velodyne
+    model: VLP-16
+    year_label: "2021"
+    image: /assets/img/equipment/vlp16.png
+    alt: Velodyne VLP-16
+    tags:
+      - 3D LiDAR
+  - name: Microsoft Azure Kinect DK
+    maker: Microsoft
+    model: Azure Kinect DK
+    year_label: "2020"
+    image: /assets/img/equipment/azurekinectdk.png
+    alt: Microsoft Azure Kinect DK
+    tags:
+      - RGB-D Camera
+      - IMU
+      - Audio
+  - name: SLAMTEC RPLIDAR-A2M8
+    maker: SLAMTEC
+    model: RPLIDAR-A2M8
+    year_label: "2020"
+    image: /assets/img/equipment/rplidara2m8.png
+    alt: SLAMTEC RPLIDAR-A2M8
+    tags:
+      - 2D LiDAR
+other_equipment:
+  - name: NVIDIA Jetson Orin Nano
+    maker: NVIDIA
+    model: Jetson Orin Nano
+    year_label: "2023"
+    image: /assets/img/equipment/jetsonorinnano.png
+    alt: NVIDIA Jetson Orin Nano
+    tags:
+      - Computing
+      - Embedded
+  - name: NVIDIA DGX-A100
+    maker: NVIDIA
+    model: DGX-A100
+    year_label: "2022"
+    image: /assets/img/equipment/dgxa100.png
+    alt: NVIDIA DGX-A100
+    tags:
+      - Computing
+      - Multi-GPU
+      - Shared
+  - name: Asus VivoMini VC66
+    maker: Asus
+    model: VivoMini VC66
+    year_label: "2021"
+    image: /assets/img/equipment/vivominivc66.png
+    alt: Asus VivoMini VC66
+    tags:
+      - Computing
+      - Mini PC
+  - name: Cubicon Style NEO-A31C
+    maker: Cubicon
+    model: Style NEO-A31C
+    year_label: "2021"
+    image: /assets/img/equipment/styleneoa31c.png
+    alt: Cubicon Style NEO-A31C
+    tags:
+      - Fabrication
+      - Prototyping

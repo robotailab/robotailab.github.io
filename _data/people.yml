@@ -1,0 +1,194 @@
+- name_en: Junghyun Oh
+  role_en: Principal Investigator
+  focus_en: Robotics, Artificial Intelligence, Human-Robot Interaction
+  email: junghyun.oh@example.com
+  category: faculty
+
+- name_en: Beomsu Cho
+  role_en: MS Student
+  focus_en: "3D Gaussian Splatting"
+  email: regame0804 (at) gmail.com
+  image: /assets/people/24s_cho_beomsu.jpg
+  category: students
+  level: graduate
+  section: main
+
+- name_en: I Made Putra Arya Winata
+  role_en: Integrated MS-PhD Student
+  focus_en: "Social Navigation, Vision-language Navigation"
+  email: aryaw2001 (at) gmail.com
+  image: /assets/people/24s_winata_arya.jpg
+  category: students
+  level: graduate
+  section: main
+
+- name_en: Yuri Song
+  role_en: MS Student
+  focus_en: "Hazard Awareness & Rescue Robotics"
+  email: thddbfl20217 (at) gmail.com
+  image: /assets/people/25s_song_yuri.png
+  category: students
+  level: graduate
+  section: main
+
+- name_en: Ida Bagus Dwiweka Naratama
+  role_en: MS Student
+  focus_en: "Object Navigation, Vision-language Navigation"
+  email: dwiwekan (at) gmail.com
+  image: /assets/people/25s_naratama_ida.jpg
+  category: students
+  level: graduate
+  section: main
+
+- name_en: Sangcheol Oh
+  role_en: MS Student
+  focus_en: "Hazard Awareness & Rescue Robotics"
+  email: sangcheol2580 (at) daum.net
+  image: /assets/people/25f_oh_sangcheol.jpg
+  category: students
+  level: graduate
+  section: main
+
+- name_en: Sangmin Han
+  role_en: PhD Student
+  focus_en: ""
+  dept_en: Department of Defense Acquisition
+  category: students
+  level: graduate
+  section: affiliated
+
+- name_en: Seongho Pak
+  role_en: MS Student
+  focus_en: ""
+  dept_en: Department of Defense in Industry AI & Robot Convergence
+  category: students
+  level: graduate
+  section: affiliated
+
+- name_en: Igyeol Jo
+  role_en: MS Student
+  focus_en: ""
+  dept_en: Department of Defense in Industry AI & Robot Convergence
+  category: students
+  level: graduate
+  section: affiliated
+
+- name_en: Jeongbong Lee
+  role_en: MS Student
+  focus_en: ""
+  dept_en: Department of Robotics
+  category: students
+  level: graduate
+  section: affiliated
+
+- name_en: Gyeongyul Min
+  role_en: MS Student
+  focus_en: ""
+  dept_en: Department of Defense in Industry AI & Robot Convergence
+  category: students
+  level: graduate
+  section: affiliated
+
+- name_en: 김연진
+  role_en: Undergraduate Researcher
+  focus_en: Department of Mechatronics Engineering, Tech University of Korea
+  category: students
+  level: undergraduate
+  period: Oct 2025 – Present
+
+- name_en: 김지성
+  role_en: Undergraduate Researcher
+  focus_en: School of Robotics, Kwangwoon University
+  category: students
+  level: undergraduate
+  period: Jul 2025 – Present
+
+- name_en: 지선우
+  role_en: Undergraduate Researcher
+  focus_en: School of Robotics, Kwangwoon University
+  category: students
+  level: undergraduate
+  period: Jul 2025 – Present
+
+- name_en: 임성우
+  role_en: Undergraduate Researcher
+  focus_en: School of Robotics, Kwangwoon University
+  category: students
+  level: undergraduate
+  period: Jul 2025 – Present
+
+- name_en: 김민서
+  role_en: Undergraduate Researcher
+  focus_en: School of Information Convergence, Kwangwoon University
+  category: students
+  level: undergraduate
+  period: Oct 2025 – Present
+
+- name_en: 백종욱
+  role_en: Undergraduate Researcher
+  focus_en: School of Robotics, Kwangwoon University
+  category: students
+  level: undergraduate
+  period: Dec 2025 – Present
+
+- name_en: 백지훈
+  role_en: Undergraduate Researcher
+  focus_en: Department of Mechanical Engineering, Inha University
+  category: students
+  level: undergraduate
+  period: Dec 2025 – Present
+
+- name_en: 이성민
+  role_en: Undergraduate Researcher
+  focus_en: School of Robotics, Kwangwoon University
+  category: students
+  level: undergraduate
+  period: Dec 2025 – Present
+
+- name_en: Donghyun Lee
+  role_en: MS (Aug 2025)
+  focus_en: Adaptive Keyframe Generation Method for Improving Visual Odometry in High Speed Motion
+  email: alumni@example.com
+  category: alumni
+
+- name_en: Jinhoon Wang
+  role_en: MS (Aug 2025)
+  focus_en: 3D Gaussian Splattnig Method for Thermal image based Novel-view Synthesis
+  email: alumni@example.com
+  category: alumni
+
+- name_en: Woonghee Lee
+  role_en: MS (Aug 2025)
+  focus_en: Target Prioritization and Cost Map-Aware Planning for Multi Object Navigation
+  email: alumni@example.com
+  category: alumni
+
+- name_en: Jusang Jeong
+  role_en: MS (Feb 2025)
+  focus_en: Event-based Gaussian Splatting for 3D Reconstruction
+  email: alumni@example.com
+  category: alumni
+
+- name_en: Jihoon Jung
+  role_en: MS (Feb 2025)
+  focus_en: 3D Radiation Mapping using Gaussian Process Regression with Intensity Projection
+  email: alumni@example.com
+  category: alumni
+
+- name_en: Donggil You
+  role_en: MS (Feb 2024)
+  focus_en: Enhancing Low-light Images for Monocular Visual Odometry in Various Lighting Conditions
+  email: alumni@example.com
+  category: alumni
+
+- name_en: Hyeongjun Jeon
+  role_en: MS (Feb 2023)
+  focus_en: RGB-D Visual SLAM Using Static Parts Toward Dynamic Environments
+  email: alumni@example.com
+  category: alumni
+
+- name_en: Changwan Han
+  role_en: MS (Feb 2023)
+  focus_en: Moving Object Removal and Point Cloud Inpainting for 3D LiDAR SLAM in Dynamic Environments
+  email: alumni@example.com
+  category: alumni

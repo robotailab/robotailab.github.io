@@ -1,0 +1,157 @@
+- term: Fall 2025
+  visible: true
+  courses:
+    - title: Intelligent Unmanned Vehicle Navigation and Operation
+      level: Graduate
+    - title: Advanced Intelligent System
+      level: Graduate
+    - title: Robot Navigation
+      level: Undergraduate
+    - title: Robotics Laboratory 4
+      level: Undergraduate
+
+- term: Spring 2025
+  visible: true
+  courses:
+    - title: Understanding Robot System
+      level: Graduate
+    - title: Probabilistic Robotics
+      level: Graduate
+    - title: Deep Learning
+      level: Undergraduate
+    - title: Robotics Laboratory 3
+      level: Undergraduate
+    - title: AI Mathematics
+      level: Undergraduate
+
+- term: Fall 2024
+  visible: true
+  courses:
+    - title: Understanding Robot System
+      level: Graduate
+    - title: Autonomous Driving
+      level: Graduate
+    - title: Advanced Deep Learning
+      level: Graduate
+    - title: Capstone Design
+      level: Undergraduate
+    - title: Robot Navigation
+      level: Undergraduate
+    - title: Robotics Laboratory 4
+      level: Undergraduate
+
+- term: Spring 2024
+  visible: true
+  courses:
+    - title: Robot Learning
+      level: Graduate
+    - title: Capstone Design
+      level: Undergraduate
+    - title: Deep Learning
+      level: Undergraduate
+    - title: Robotics Laboratory 3
+      level: Undergraduate
+
+- term: Fall 2023
+  visible: true
+  courses:
+    - title: Advanced Intelligent System
+      level: Graduate
+    - title: Robot Navigation
+      level: Undergraduate
+    - title: Robotics Laboratory 2
+      level: Undergraduate
+    - title: Introduction to Robotics
+      level: Undergraduate
+
+- term: Spring 2023
+  visible: true
+  courses:
+    - title: Probabilistic Robotics
+      level: Graduate
+    - title: Deep Learning
+      level: Undergraduate
+    - title: Automatic Control
+      level: Undergraduate
+
+- term: Fall 2022
+  visible: false
+  courses:
+    - title: Advanced Deep Learning
+      level: Graduate
+    - title: Robot Navigation
+      level: Undergraduate
+    - title: Robotics Laboratory 4
+      level: Undergraduate
+    - title: Robotics Laboratory 2
+      level: Undergraduate
+
+- term: Spring 2022
+  visible: false
+  courses:
+    - title: Robot Learning
+      level: Graduate
+    - title: Deep Learning
+      level: Undergraduate
+    - title: Circuit Theory 1
+      level: Undergraduate
+    - title: Introduction to Robotics
+      level: Undergraduate
+
+- term: Fall 2021
+  visible: false
+  courses:
+    - title: Advanced Intelligent System
+      level: Graduate
+    - title: Robot Navigation
+      level: Undergraduate
+    - title: Circuit Theory 2
+      level: Undergraduate
+    - title: Introduction to Robotics
+      level: Undergraduate
+
+- term: Spring 2021
+  visible: false
+  courses:
+    - title: Probabilistic Robotics
+      level: Graduate
+    - title: Deep Learning
+      level: Undergraduate
+    - title: Probability and Statistics
+      level: Undergraduate
+    - title: Circuit Theory 1
+      level: Undergraduate
+    - title: Introduction to Robotics
+      level: Undergraduate
+
+- term: Fall 2020
+  visible: false
+  courses:
+    - title: Advanced Reinforcement Learning
+      level: Graduate
+    - title: Robot System Design
+      level: Undergraduate
+    - title: Circuit Theory 2
+      level: Undergraduate
+
+- term: Spring 2020
+  visible: false
+  courses:
+    - title: Robot Learning
+      level: Graduate
+    - title: Deep Learning
+      level: Undergraduate
+    - title: Circuit Theory 1
+      level: Undergraduate
+    - title: Introduction to Robotics
+      level: Undergraduate
+
+- term: Fall 2019
+  visible: false
+  courses:
+    - title: Advanced Deep Learning
+      level: Graduate
+    - title: Circuit and System
+      level: Undergraduate
+    - title: Introduction to Robotics
+      level: Undergraduate

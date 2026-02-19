@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Professor · Robotics & A.I. Lab.</title>
+    <meta name="description" content="English-only lab website template">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="/assets/img/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+    <style>
+      .pub-list {
+        list-style: none;
+        padding-left: 0;
+        counter-reset: pub var(--pub-count);
+      }
+      .pub-list > li {
+        counter-increment: pub -1;
+        position: relative;
+        padding-left: 3rem;
+      }
+      .pub-list > li::before {
+        content: "[" counter(pub) "] ";
+        font-weight: 600;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 2.5rem;
+        text-align: right;
+      }
+      .prof-photo {
+        height: 181px;
+        width: auto;
+        object-fit: contain;
+        display: block;
+      }
+      .hero-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+      .highlight-img {
+        width: 100%;
+        height: 360px;
+        object-fit: fill;
+        display: block;
+      }
+      .equipment-img {
+        width: 100%;
+        max-height: 180px;
+        object-fit: contain;
+      }
+      .news-date-badge {
+        min-width: 86px;
+        text-align: center;
+        letter-spacing: 0.02em;
+      }
+      .news-link {
+        text-decoration: none;
+        white-space: nowrap;
+        color: inherit;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2px 8px;
+        border-radius: 999px;
+        gap: 6px;
+        border: 1px solid var(--bs-border-color);
+        background: rgba(var(--bs-body-color-rgb), 0.06);
+        font-weight: 600;
+        letter-spacing: 0.01em;
+        font-size: 0.82rem;
+        line-height: 1;
+      }
+      .news-link-text {
+        font-size: 0.82rem;
+        line-height: 1;
+      }
+      .news-link:hover {
+        background: rgba(var(--bs-body-color-rgb), 0.12);
+        text-decoration: none;
+      }
+      [data-bs-theme="dark"] .news-link:hover {
+        background: rgba(255, 255, 255, 0.15);
+      }
+      .navbar-brand-icon {
+        height: 32px;
+        width: auto;
+        object-fit: contain;
+        display: inline-block;
+        filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.35));
+      }
+      [data-bs-theme="dark"] .navbar-brand-icon {
+        filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.4));
+      }
+      .project-date {
+        font-variant-numeric: tabular-nums;
+        white-space: nowrap;
+      }
+      .project-date-cell,
+      .project-title-cell,
+      .project-org-cell {
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+      .project-badge {
+        letter-spacing: 0.01em;
+      }
+      .course-badge-graduate {
+        letter-spacing: 0.01em;
+      }
+      .course-badge {
+        min-width: 7.5rem;
+        text-align: center;
+      }
+      [data-bs-theme="dark"] .project-badge {
+        background-color: rgba(255, 255, 255, 0.14);
+        color: #f8f9fa;
+        border: 1px solid rgba(255, 255, 255, 0.25);
+      }
+      [data-bs-theme="dark"] .course-badge-graduate {
+        background-color: rgba(255, 255, 255, 0.18);
+        color: #f8f9fa;
+        border: 1px solid rgba(255, 255, 255, 0.30);
+      }
+      [data-bs-theme="dark"] .equipment-title-badge {
+        background-color: rgba(255, 255, 255, 0.14);
+        color: #f8f9fa;
+        border: 1px solid rgba(255, 255, 255, 0.25);
+      }
+      .pub-section-title {
+        scroll-margin-top: 96px;
+      }
+      .research-intro {
+        white-space: nowrap;
+      }
+    </style>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top border-bottom">
+  <div class="container">
+    <a class="navbar-brand fw-semibold d-inline-flex align-items-center gap-2" href="/">
+      <img class="navbar-brand-icon" src="/assets/img/logo.png" alt="">
+      Robotics &amp; A.I. Lab.
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="/people/" role="button" data-bs-toggle="dropdown" aria-expanded="false">People</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/people/professor/">Professor</a></li>
+            <li><a class="dropdown-item" href="/people/students/">Students</a></li>
+            <li><a class="dropdown-item" href="/people/alumni/">Alumni</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="/research/" role="button" data-bs-toggle="dropdown" aria-expanded="false">Research</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/research/">Research Overview</a></li>
+            <li><a class="dropdown-item" href="/projects/">Projects</a></li>
+            <li><a class="dropdown-item" href="/equipment/">Equipment</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="/publications/">Publications</a></li>
+        <li class="nav-item"><a class="nav-link" href="/courses/">Courses</a></li>
+        <li class="nav-item"><a class="nav-link" href="/news/">News</a></li>
+        <li class="nav-item"><a class="nav-link" href="/contact/">Contact</a></li>
+        <li class="nav-item d-flex align-items-center ms-lg-2">
+          <button class="btn btn-outline-secondary btn-sm d-inline-flex align-items-center justify-content-center" type="button" id="themeToggle" aria-label="Toggle dark mode">
+            <span class="theme-icon" data-theme="light" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="4"></circle>
+                <line x1="12" y1="2" x2="12" y2="5"></line>
+                <line x1="12" y1="19" x2="12" y2="22"></line>
+                <line x1="2" y1="12" x2="5" y2="12"></line>
+                <line x1="19" y1="12" x2="22" y2="12"></line>
+                <line x1="4" y1="4" x2="6" y2="6"></line>
+                <line x1="18" y1="18" x2="20" y2="20"></line>
+                <line x1="18" y1="6" x2="20" y2="4"></line>
+                <line x1="4" y1="20" x2="6" y2="18"></line>
+              </svg>
+            </span>
+            <span class="theme-icon d-none" data-theme="dark" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 14.5A9 9 0 1 1 9.5 3a7 7 0 0 0 11.5 11.5z"></path>
+              </svg>
+            </span>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <main class="flex-grow-1">
+      <section class="py-5">
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-12">
+        <div class="card">
+          <div class="card-body">
+            <div class="row g-3 align-items-start">
+              <div class="col-auto" style="line-height: 0;">
+                <img class="img-fluid prof-photo" src="/assets/people/prof.jpg" alt="Professor photo" />
+              </div>
+              <div class="col text-start" style="min-height: 160px;">
+                <h1 class="h4 mb-1">Junghyun Oh, Ph.D.</h1>
+                <div class="text-muted mb-2 fw-semibold">Associate Professor, School of Robotics, Kwangwoon University</div>
+                <div class="small mb-1">Office: Room 510, Saebit Building, Kwangwoon University</div>
+                <div class="small mb-1">Phone: +82-2-940-8092</div>
+                <div class="small mb-3">Email: jhyunoh (at) kw.ac.kr</div>
+                <div class="d-flex flex-wrap align-items-center gap-2">
+                  <a class="btn btn-outline-dark btn-sm" data-theme-btn="outline" href="/research/">Research</a>
+                  <a class="btn btn-outline-dark btn-sm" data-theme-btn="outline" href="/publications/">Publications</a>
+                  <a class="btn btn-outline-dark btn-sm d-inline-flex align-items-center justify-content-center" data-theme-btn="outline" href="https://scholar.google.com/citations?user=1eD-6UMAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar">
+                    <img src="/assets/img/googlescholar.svg" width="18" height="18" alt="" />
+                  </a>
+                  <a class="btn btn-outline-dark btn-sm d-inline-flex align-items-center justify-content-center" data-theme-btn="outline" href="https://orcid.org/0000-0003-0502-7600" target="_blank" rel="noopener" aria-label="ORCID">
+                    <img src="/assets/img/orcid.svg" width="18" height="18" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h2 class="h5">Biography</h2>
+            <p class="mb-0" style="text-align: justify;">
+              Dr. Junghyun Oh received his B.S., M.S., and Ph.D. degrees in Electrical Engineering from Seoul
+              National University, Seoul, Korea, in 2012, 2014, and 2018, respectively. From 2018 to 2019,
+              he served as a Staff Engineer at Samsung Research, Samsung Electronics Co., Ltd., Seoul,
+              Korea. He joined the School of Robotics at Kwangwoon University, Seoul, Korea, as an Assistant
+              Professor in 2019 and has been an Associate Professor since 2024. His research interests
+              include vision-language navigation, multi-robot applications, and artificial intelligence for
+              robotics.
+            </p>
+          </div>
+        </div>
+
+        <div class="card mb-4">
+          <div class="card-body">
+            <h2 class="h5">Education</h2>
+            <ul class="mb-0">
+              <li>Ph.D. in Electrical and Computer Engineering, Seoul National University, 2018</li>
+              <li>M.S. in Electrical Engineering and Computer Science, Seoul National University, 2014</li>
+              <li>B.S. in Electrical Engineering, Seoul National University, 2012</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card mb-4">
+          <div class="card-body">
+            <h2 class="h5">Professional Experiences</h2>
+            <ul class="mb-0">
+              <li>Visiting Scholar, Department of ECE, University of Illinois Urbana-Champaign (Dec. 2025 ~ Present)</li>
+              <li>Associate Professor, School of Robotics, Kwangwoon University (Sep. 2024 ~ Present)</li>
+              <li>Assistant Professor, School of Robotics, Kwangwoon University (Sep. 2019 ~ Aug. 2024)</li>
+              <li>Staff Engineer, Samsung Research, Samsung Electronics (Mar. 2018 ~ Aug. 2019)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h2 class="h5">Academic Activities</h2>
+            <ul class="mb-0">
+              <li>Associate Editor, IEEE International Conference on Robotics and Automation (ICRA) 2023-2026</li>
+              <li>Associate Editor, International Conference on Control, Automation and Systems (ICCAS) 2024</li>
+              <li>Associate Editor, International Conference on Ubiquitous Robots (UR) 2024</li>
+              <li>Organizing Committee, ICROS Annual Conference 2023</li>
+              <li>Editorial Board, Institute of Control, Robotics and Systems (2022 - Present)</li>
+              <li>Elected Council Member, Institute of Control, Robotics and Systems (2025 - 2026)</li>
+              <li>Reviewer, IEEE Robotics and Automation Letters (RA-L)</li>
+              <li>Reviewer, IEEE International Conference on Robotics and Automation (ICRA)</li>
+              <li>Reviewer, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</li>
+              <li>Reviewer, Journal of Institute of Control, Robotics and Systems</li>
+              <li>Reviewer, Journal of Korea Robotics Society</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card mt-4">
+          <div class="card-body">
+            <h2 class="h5">Awards</h2>
+            <ul class="mb-0">
+              <li>Kwon Wook-Hyun Young Researcher Paper Award, ICROS, 2025</li>
+              <li>Best Reviewer Award, ICROS, 2024</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="mt-auto py-4 border-top bg-body-tertiary">
+  <div class="container text-center">
+    <div class="small">Copyright © 2019-2026 Robotics &amp; Artificial Intelligence Laboratory, Kwangwoon University. All Rights Reserved.</div>
+  </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      (function () {
+        const root = document.documentElement;
+        const saved = localStorage.getItem("theme");
+        if (saved) root.setAttribute("data-bs-theme", saved);
+
+        const btn = document.getElementById("themeToggle");
+        if (!btn) return;
+
+        function syncIcon(theme) {
+          const icons = btn.querySelectorAll(".theme-icon");
+          icons.forEach(icon => {
+            const isDark = icon.dataset.theme === "dark";
+            icon.classList.toggle("d-none", theme === "dark" ? !isDark : isDark);
+          });
+        }
+
+        function syncButtons(theme) {
+          const buttons = document.querySelectorAll('[data-theme-btn="outline"]');
+          buttons.forEach(button => {
+            button.classList.toggle("btn-outline-dark", theme !== "dark");
+            button.classList.toggle("btn-outline-light", theme === "dark");
+          });
+        }
+
+        const initialTheme = root.getAttribute("data-bs-theme") || "light";
+        syncIcon(initialTheme);
+        syncButtons(initialTheme);
+
+        btn.addEventListener("click", () => {
+          const current = root.getAttribute("data-bs-theme") || "light";
+          const next = current === "dark" ? "light" : "dark";
+          root.setAttribute("data-bs-theme", next);
+          localStorage.setItem("theme", next);
+          syncIcon(next);
+          syncButtons(next);
+        });
+      })();
+    </script>
+  </body>
+</html>
