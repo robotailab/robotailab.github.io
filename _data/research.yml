@@ -29,7 +29,7 @@
   details: We design autonomous strategies that couple perception and planning to explore unknown spaces, reduce uncertainty, and build useful maps under sensing and compute constraints.
 
 - title: SLAM in Challenging Environments
-  image: /assets/img/research/socialnavitbcgation.png
+  image: /assets/img/research/tbc.png
   image_alt: SLAM in Challenging Environments
   summary: Localization and mapping in dynamic, real-world environments.
   details: Our SLAM research targets long-term consistency, drift reduction, and map update strategies for environments with moving objects and changing geometry.
