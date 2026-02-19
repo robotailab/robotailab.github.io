@@ -1,47 +1,47 @@
 - title: Social Navigation
-  image: /assets/img/research/socialnavigation.png
+  image: /assets/img/research/tbc.png
   image_alt: Social navigation
   summary: Human-aware motion planning for safe and natural robot behavior in shared spaces.
   details: We model personal space, group interactions, and social norms to generate trajectories that remain efficient while improving comfort, predictability, and safety around people.
 
 - title: Vision-Language Navigation
-  image: /assets/img/research/visionlanguagenavigation.png
+  image: /assets/img/research/tbc.png
   image_alt: Vision-Language Navigation
   summary: Language-guided navigation that grounds natural instructions in visual scenes.
   details: We develop embodied agents that align textual goals with scene understanding, improving instruction following, long-horizon planning, and generalization to unseen environments.
 
 - title: Robotics-Integrated Construction Systems
-  image: /assets/img/research/roboticsintegratedconstructionsystems.png
+  image: /assets/img/research/tbc.png
   image_alt: Robotics-Integrated Construction Systems
   summary: Robotic automation for safer, faster, and higher-quality construction workflows.
   details: We develop integrated systems combining mobile robots, manipulation, and site-aware perception for layout, inspection, material handling, and adaptive on-site assembly.
 
 - title: Neural 3D Reconstruction
-  image: /assets/img/research/neural3dreconstruction.png
+  image: /assets/img/research/tbc.png
   image_alt: Neural 3D Reconstruction
   summary: Learning-based 3D scene reconstruction and compact geometric representations.
   details: We study neural fields and hybrid 3D representations for accurate geometry, view synthesis, and semantic structure that support perception and simulation for robotics.
 
 - title: Autonomous Exploration
-  image: /assets/img/research/autonomousexploration.png
+  image: /assets/img/research/tbc.png
   image_alt: Autonomous Exploration
   summary: Self-directed exploration for efficient environment coverage and information gain.
   details: We design autonomous strategies that couple perception and planning to explore unknown spaces, reduce uncertainty, and build useful maps under sensing and compute constraints.
 
 - title: SLAM in Challenging Environments
-  image: /assets/img/research/socialnavigation.png
+  image: /assets/img/research/socialnavitbcgation.png
   image_alt: SLAM in Challenging Environments
   summary: Localization and mapping in dynamic, real-world environments.
   details: Our SLAM research targets long-term consistency, drift reduction, and map update strategies for environments with moving objects and changing geometry.
 
 - title: Multi-Robot Systems
-  image: /assets/img/research/multirobotsystems.png
+  image: /assets/img/research/tbc.png
   image_alt: Multi-Robot Systems
   summary: Cooperative perception, planning, and task allocation across robot teams.
   details: Our work focuses on decentralized coordination, communication-efficient collaboration, and scalable fleet intelligence for exploration, transport, and monitoring tasks.
 
 - title: Physical AI & Applied Robotic Systems
-  image: /assets/img/research/socialnavigation.png
+  image: /assets/img/research/tbc.png
   image_alt: Physical AI & Applied Robotic Systems
   summary: Deployable AI-driven robotic systems for real-world industrial and service scenarios.
   details: We integrate perception, control, and autonomy into end-to-end platforms, emphasizing reliability, safety validation, and practical performance under field constraints.
