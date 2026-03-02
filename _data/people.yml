@@ -4,15 +4,6 @@
   email: junghyun.oh@example.com
   category: faculty
 
-- name_en: Beomsu Cho
-  role_en: MS Student
-  focus_en: "3D Gaussian Splatting"
-  email: regame0804 (at) gmail.com
-  image: /assets/people/24s_cho_beomsu.jpg
-  category: students
-  level: graduate
-  section: main
-
 - name_en: I Made Putra Arya Winata
   role_en: Integrated MS-PhD Student
   focus_en: "Social Navigation, Vision-language Navigation"
@@ -45,6 +36,24 @@
   focus_en: "Hazard Awareness & Rescue Robotics"
   email: sangcheol2580 (at) daum.net
   image: /assets/people/25f_oh_sangcheol.jpg
+  category: students
+  level: graduate
+  section: main
+
+- name_en: Yeonjin Kim
+  role_en: MS Student
+  focus_en: "Robot Navigation"
+  email: rladuswls0309 (at) naver.com
+  image: /assets/people/26s_kim_yeonjin.jpg
+  category: students
+  level: graduate
+  section: main
+
+- name_en: Anwari Anggra
+  role_en: MS Student
+  focus_en: "Robot Navigation"
+  email: anggra2625 (at) gmail.com
+  image: /assets/people/26s_anggra_anwari.jpg
   category: students
   level: graduate
   section: main
@@ -88,13 +97,6 @@
   category: students
   level: graduate
   section: affiliated
-
-- name_en: 김연진
-  role_en: Undergraduate Researcher
-  focus_en: Department of Mechatronics Engineering, Tech University of Korea
-  category: students
-  level: undergraduate
-  period: Oct 2025 – Present
 
 - name_en: 김지성
   role_en: Undergraduate Researcher
@@ -145,6 +147,12 @@
   level: undergraduate
   period: Dec 2025 – Present
 
+- name_en: Beomsu Cho
+  role_en: MS (Feb 2026)
+  focus_en: Environment-Adaptive Exploration Leveraging Trajectory Acquired Information for Active Reconstruction
+  email: alumni@example.com
+  category: alumni
+  
 - name_en: Donghyun Lee
   role_en: MS (Aug 2025)
   focus_en: Adaptive Keyframe Generation Method for Improving Visual Odometry in High Speed Motion
