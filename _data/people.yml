@@ -98,44 +98,9 @@
   level: graduate
   section: affiliated
 
-- name_en: 김지성
-  role_en: Undergraduate Researcher
-  focus_en: School of Robotics, Kwangwoon University
-  category: students
-  level: undergraduate
-  period: Jul 2025 – Present
-
-- name_en: 지선우
-  role_en: Undergraduate Researcher
-  focus_en: School of Robotics, Kwangwoon University
-  category: students
-  level: undergraduate
-  period: Jul 2025 – Present
-
-- name_en: 임성우
-  role_en: Undergraduate Researcher
-  focus_en: School of Robotics, Kwangwoon University
-  category: students
-  level: undergraduate
-  period: Jul 2025 – Present
-
-- name_en: 김민서
-  role_en: Undergraduate Researcher
-  focus_en: School of Information Convergence, Kwangwoon University
-  category: students
-  level: undergraduate
-  period: Oct 2025 – Present
-
 - name_en: 백종욱
   role_en: Undergraduate Researcher
   focus_en: School of Robotics, Kwangwoon University
-  category: students
-  level: undergraduate
-  period: Dec 2025 – Present
-
-- name_en: 백지훈
-  role_en: Undergraduate Researcher
-  focus_en: Department of Mechanical Engineering, Inha University
   category: students
   level: undergraduate
   period: Dec 2025 – Present
@@ -146,6 +111,13 @@
   category: students
   level: undergraduate
   period: Dec 2025 – Present
+
+- name_en: 안병규
+  role_en: Undergraduate Researcher
+  focus_en: School of Robotics, Kwangwoon University
+  category: students
+  level: undergraduate
+  period: Apr 2026 – Present
 
 - name_en: Beomsu Cho
   role_en: MS (Feb 2026)

@@ -17,7 +17,7 @@ permalink: /research/
       {% assign detail_id = "researchDetail" | append: forloop.index %}
       <div class="col-md-6 col-lg-4">
         <div class="card h-100" role="button" tabindex="0" style="cursor: pointer;" data-bs-toggle="collapse" data-bs-target="#{{ detail_id }}" aria-expanded="false" aria-controls="{{ detail_id }}">
-          <img class="card-img-top p-2" src="{{ item.image }}" alt="{{ item.image_alt }}" style="height: 400px; object-fit: contain;">
+          <img class="card-img-top research-img p-2" src="{{ item.image }}" alt="{{ item.image_alt }}">
           <div class="card-body">
             <h2 class="h5">{{ item.title }}</h2>
             <p class="text-muted mb-2">{{ item.summary }}</p>
