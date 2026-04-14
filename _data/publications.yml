@@ -1,12 +1,12 @@
 - id: intl-journals
   title: International Journals
   items:
-    - year: 2025
-      text: 'Ill-Woo Park, Junghyun Oh, and Suhan Park*, "Mechanical design of a giant human riding biped humanoid robot, Method II," International Journal of Humanoid Robotics, (accepted).'
+    - year: 2026
+      text: 'Ill-Woo Park, Junghyun Oh, and Suhan Park*, "Mechanical design of a giant human riding biped humanoid robot, Method II," International Journal of Humanoid Robotics, vol. 23, no. 2, pp. 2650002, Mar. 2026.'
     - year: 2025
       text: 'Woonghee Lee, I Made Putra Arya Winata, Donghyun Lee, and Junghyun Oh*, "Dynamic prioritization and adaptive path planning for indoor multi-object navigation," International Journal of Control, Automation and Systems, vol. 23, no. 12, pp. 3576-3586, Dec. 2025.'
     - year: 2025
-      text: 'Jinhoon Wang, Jusang Jeong, and Junghyun Oh*, "Improving structure-from-motion and rendering quality for thermal image-based 3D Gaussian splatting," IEEE Access, vol. 11, pp. 149450-149461, Aug. 2025.'
+      text: 'Jinhoon Wang, Jusang Jeong, and Junghyun Oh*, "Improving structure-from-motion and rendering quality for thermal image-based 3D Gaussian splatting," IEEE Access, vol. 13, pp. 149450-149461, Aug. 2025.'
     - year: 2025
       text: 'Donghyun Lee, I Made Putra Arya Winata, Beomsu Cho, and Junghyun Oh*, "AKG-VO: Adaptive keyframe generation method for improving visual odometry in autonomous vehicles," Advanced Intelligent Systems, 2401119, July 2025.'
     - year: 2024
