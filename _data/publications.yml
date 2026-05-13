@@ -81,6 +81,8 @@
 - id: intl-confs
   title: International Conferences
   items:
+    - year: 2026
+      text: 'I Made Putra Arya Winata, Sangcheol Oh, and Junghyun Oh, "Reachability on navigation for multi-robot systems with time-varying expanding obstacle," in Proceedings of the Asian Control Conference, Bali, Indonesia, Jun. 17-21, 2026, (accepted).'
     - year: 2025
       text: 'I Made Putra Arya Winata, Donghyun Lee, Ida Bagus Dwiweka Naratama, and Junghyun Oh, "Attention-guided semantic navigation learning from pose, goal text, and visual via exponential reward functions," in Proceedings of the International Conference on Control, Automation, and Systems, Incheon, South Korea, Nov. 4-7, 2025, pp. 139-144.'
     - year: 2025
