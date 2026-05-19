@@ -70,8 +70,13 @@ permalink: /projects/
             </colgroup>
             <tbody>
               <tr class="border-top">
+                <td class="text-muted fw-semibold text-nowrap project-date project-date-cell">2026.03 – 2030.02</td>
+                <td class="project-title-cell">첨단산업 특성화대학 재정지원사업(로봇)</td>
+                <td class="text-muted project-org-cell">한국산업기술진흥원(교육부)</td>
+              </tr>
+              <tr class="border-top">
                 <td class="text-muted fw-semibold text-nowrap project-date project-date-cell">2024.03 – 2029.02</td>
-                <td class="project-title-cell">첨단로봇산업전문인력양성</td>
+                <td class="project-title-cell">첨단로봇산업 전문인력양성</td>
                 <td class="text-muted project-org-cell">한국산업기술진흥원(산업통상자원부)</td>
               </tr>
               <tr class="border-top">
