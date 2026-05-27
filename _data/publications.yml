@@ -59,6 +59,8 @@
 - id: domestic-journals
   title: Domestic Journals
   items:
+    - year: 2026
+      text: '오상철, 송유리, I Made Putra Arya Winata, 오정현, "국소 가시성 인식을 고려한 능동 3 차원 재구성을 위한 계층적 시점 정밀화," 제어로봇시스템학회논문지, 2026년(accepted).'
     - year: 2025
       text: '오정현, "Physical AI의 개념과 핵심 기술 및 미래 전망," 한국콘텐츠학회지, 제23권, 2호, pp. 13-21, 2025년 12월.'
     - year: 2025
@@ -127,6 +129,14 @@
 - id: domestic-confs
   title: Domestic Conferences
   items:
+    - year: 2026
+      text: 'I Made Putra Arya Winata, 김연진, Anggra Anwari, 오정현, "운동 예측 기반 확장 제어 배리어 함수를 이용한 안전한 다중 에이전트 시스템," 제어로봇시스템학회학술대회, 2026년 7월, (accepted).'
+    - year: 2026
+      text: '송유리, 오상철, Ida Bagus Dwiweka Naratama, 오정현, "화재 전파 예측 시공간 그래프 신경망을 이용한 재난 구조 에이전트," 제어로봇시스템학회학술대회, 2026년 7월, (accepted).'
+    - year: 2026
+      text: 'Ida Bagus Dwiweka Naratama, I Made Putra Arya Winata, 오상철, 송유리, 오정현, "객체 목표 내비게이션을 위한 명시적 지도 예측의 탐사 기반 전환," 제어로봇시스템학회학술대회, 2026년 7월, (accepted).'
+    - year: 2026
+      text: '오상철, 송유리, I Made Putra Arya Winata, 오정현, "국소 가시성 인식을 고려한 능동 3차원 재구성을 위한 계층적 시점 정밀화," 제어로봇시스템학회학술대회, 2026년 7월, (accepted).'
     - year: 2026
       text: 'Ida Bagus Dwiweka Naratama, I Made Putra Arya Winata, 송유리, 오정현, "VQ-LaMa: 효율적 탐사를 위한 이산적 의미 지도 인페인팅," 한국로봇종합학술대회, 2026년 2월, pp. 858-860.'
     - year: 2026
