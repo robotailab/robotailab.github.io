@@ -123,7 +123,7 @@ Splatting</h2>
             <p class="text-muted">We are recruiting motivated students passionate about robotics and AI.</p>
             <div class="fw-semibold small mb-1">Openings</div>
             <ul class="small mb-3">
-              <li>Graduate admissions for the 2026 fall semester are now open for advanced research applicants.</li>
+              <li>Graduate admissions for the Spring 2027 semester are now open for advanced research applicants.</li>
               <li>Undergraduate research positions are open year-round for hands-on robotics and AI experience.</li>
             </ul>
             <div class="small mb-3">Contact: jhyunoh (at) kw.ac.kr</div>

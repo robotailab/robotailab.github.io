@@ -45,7 +45,7 @@ permalink: /contact/
             <div class="fw-semibold small mb-2">Openings</div>
             <ul class="small mb-3">
               <li>Undergraduate research: Open year-round (RAIL Undergraduate Research Program)</li>
-              <li>Graduate admissions: Fall 2026, Spring 2027</li>
+              <li>Graduate admissions: Spring 2027 (now open)</li>
               <li>Postdoctoral positions: Open year-round</li>
               <li>Visiting students and researchers: Open year-round</li>
             </ul>
