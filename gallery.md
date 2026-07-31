@@ -32,36 +32,6 @@ permalink: /gallery/
   </div>
 </section>
 
-<style>
-  .gallery-cover {
-    width: 72px;
-    height: 72px;
-    object-fit: cover;
-  }
-  .gallery-event summary {
-    cursor: pointer;
-  }
-  .gallery-event {
-    border: 1px solid var(--bs-border-color);
-    background: transparent;
-  }
-  .gallery-event:focus-visible {
-    outline: 2px solid var(--bs-primary);
-    outline-offset: 2px;
-  }
-  .masonry-grid {
-    display: block;
-  }
-  .photo-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-  }
-  .photo-item img {
-    display: block;
-  }
-</style>
-
 {% for event in site.data.gallery %}
 <div class="modal fade" id="galleryEvent-{{ event.id }}" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
