@@ -49,12 +49,12 @@ title: Home
         <div class="card h-100">
           <div class="card-body">
             <span class="badge text-bg-dark mb-2">Featured</span>
-            <img class="img-fluid rounded mb-3 highlight-img" src="/assets/img/ij26.png" alt="Featured research image">
-            <h2 class="h5">Dynamic prioritization and adaptive path planning for indoor multi-object navigation</h2>
-            <p class="text-muted">We propose a multi-object navigation method that dynamically selects target order and plans efficient paths in cluttered indoor environments.</p>
+            <img class="img-fluid rounded mb-3 highlight-img" src="/assets/img/ij27.png" alt="Featured research image">
+            <h2 class="h5">Mechanical design of a giant human riding biped humanoid robot, Method II</h2>
+            <p class="text-muted">This paper presents the mechanical design of a human-ridable giant humanoid robot that enables intuitive, pilot-in-the-loop whole-body control.</p>
             <div class="d-flex flex-wrap gap-2 mb-3">
-              <span class="badge text-bg-secondary">Path Planning</span>
-              <span class="badge text-bg-secondary">Multi-object Navigation</span>
+              <span class="badge text-bg-secondary">Humanoid Robot</span>
+              <span class="badge text-bg-secondary">Mechanical Design</span>
             </div>
             <a class="btn btn-outline-dark btn-sm" href="/publications/">Read More</a>
           </div>
@@ -64,14 +64,12 @@ title: Home
         <div class="card h-100">
           <div class="card-body">
             <span class="badge text-bg-dark mb-2">Featured</span>
-            <img class="img-fluid rounded mb-3 highlight-img" src="/assets/img/ij25.png" alt="Featured research image">
-            <h2 class="h5">Improving Structure-From-Motion and Rendering
-Quality for Thermal Image-Based 3D Gaussian
-Splatting</h2>
-            <p class="text-muted">We propose thermal image–based 3D Gaussian Splatting for robust novel-view synthesis in low-visibility conditions.</p>
+            <img class="img-fluid rounded mb-3 highlight-img" src="/assets/img/ij26.png" alt="Featured research image">
+            <h2 class="h5">Dynamic prioritization and adaptive path planning for indoor multi-object navigation</h2>
+            <p class="text-muted">We propose a multi-object navigation method that dynamically selects target order and plans efficient paths in cluttered indoor environments.</p>
             <div class="d-flex flex-wrap gap-2 mb-3">
-              <span class="badge text-bg-secondary">Gaussian Splatting</span>
-              <span class="badge text-bg-secondary">Thermal Images</span>
+              <span class="badge text-bg-secondary">Path Planning</span>
+              <span class="badge text-bg-secondary">Multi-object Navigation</span>
             </div>
             <a class="btn btn-outline-dark btn-sm" href="/publications/">Read More</a>
           </div>
