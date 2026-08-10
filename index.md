@@ -34,12 +34,12 @@ title: Home
         <div class="card h-100">
           <div class="card-body">
             <span class="badge text-bg-dark mb-2">Featured</span>
-            <img class="img-fluid rounded mb-3 highlight-img" src="/assets/img/ij27.png" alt="Featured research image">
-            <h2 class="h5">Mechanical design of a giant human riding biped humanoid robot, Method II</h2>
-            <p class="text-muted">This paper presents the mechanical design of a human-ridable giant humanoid robot that enables intuitive, pilot-in-the-loop whole-body control.</p>
+            <img class="img-fluid rounded mb-3 highlight-img" src="/assets/img/ij28.png" alt="Prediction-conditioned reachability framework for safe crowd navigation">
+            <h2 class="h5">Uncertainty-calibrated Hamilton-Jacobi value learning for safe crowd navigation</h2>
+            <p class="text-muted">We combine pedestrian prediction, learned Hamilton-Jacobi reachability, and conformal uncertainty calibration within MPC to enable efficient and reliable navigation in dense and out-of-distribution crowds.</p>
             <div class="d-flex flex-wrap gap-2 mb-3">
-              <span class="badge text-bg-secondary">Humanoid Robot</span>
-              <span class="badge text-bg-secondary">Mechanical Design</span>
+              <span class="badge text-bg-secondary">Safe Navigation</span>
+              <span class="badge text-bg-secondary">HJ Reachability</span>
             </div>
             <a class="btn btn-outline-dark btn-sm" href="/publications/">Read More</a>
           </div>
