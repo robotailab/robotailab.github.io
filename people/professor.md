@@ -78,7 +78,7 @@ permalink: /people/professor/
           <div class="card-body">
             <h2 class="h5">Academic Activities</h2>
             <ul class="mb-0">
-              <li>Associate Editor, IEEE International Conference on Robotics and Automation (ICRA) 2023-2026</li>
+              <li>Associate Editor, IEEE International Conference on Robotics and Automation (ICRA) 2023-2027</li>
               <li>Associate Editor, International Conference on Control, Automation and Systems (ICCAS) 2024</li>
               <li>Associate Editor, International Conference on Ubiquitous Robots (UR) 2024</li>
               <li>Organizing Committee, ICROS Annual Conference 2023</li>
