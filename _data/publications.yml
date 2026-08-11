@@ -62,27 +62,27 @@
   title: Domestic Journals
   items:
     - year: 2026
-      text: '한상민, 오정현, "무인전투체계의 인지적 자율성 확보 및 한국 육군 적용방안에 대한 연구," 국방로봇학회논문지, 2026년(accepted).'
+      text: '한상민, 오정현, "무인전투체계의 인지적 자율성 확보 및 한국 육군 적용방안에 대한 연구," <em>국방로봇학회논문지</em>, 2026년 (게재 예정).'
     - year: 2026
-      text: '오상철, 송유리, I Made Putra Arya Winata, 오정현, "국소 가시성 인식을 고려한 능동 3 차원 재구성을 위한 계층적 시점 정밀화," 제어로봇시스템학회논문지, 제32권, 8호, pp. 1107-1112, 2026년 8월.'
+      text: '오상철, 송유리, I Made Putra Arya Winata, 오정현, "국소 가시성 인식을 고려한 능동 3차원 재구성을 위한 계층적 시점 정밀화," <em>제어로봇시스템학회논문지</em>, 제32권 제8호, 1107–1112쪽, 2026년 8월.'
     - year: 2025
-      text: '오정현, "Physical AI의 개념과 핵심 기술 및 미래 전망," 한국콘텐츠학회지, 제23권, 2호, pp. 13-21, 2025년 12월.'
+      text: '오정현, "Physical AI의 개념과 핵심 기술 및 미래 전망," <em>한국콘텐츠학회지</em>, 제23권 제2호, 13–21쪽, 2025년 12월.'
     - year: 2025
-      text: '한상민, 오정현, "UGV의 인지적 자율성 향상을 위한 LLM 기반 전술 AI 프레임워크 설계 전략," 국방로봇학회논문집, 제4권, 4호, pp. 20-35, 2025년 10월.'
+      text: '한상민, 오정현, "UGV의 인지적 자율성 향상을 위한 LLM 기반 전술 AI 프레임워크 설계 전략," <em>국방로봇학회논문집</em>, 제4권 제4호, 20–35쪽, 2025년 10월.'
     - year: 2025
-      text: 'I Made Putra Arya Winata, 이동현, Ida Bagus Dwiweka Naratama, 오정현, "Leveraging large language model assistance on explicit object target prediction and navigation in unseen area," 제어로봇시스템학회논문지, 제31권, 8호, pp. 888-893, 2025년 8월.'
+      text: 'I Made Putra Arya Winata, 이동현, Ida Bagus Dwiweka Naratama, 오정현, "Leveraging large language model assistance on explicit object target prediction and navigation in unseen area," <em>제어로봇시스템학회논문지</em>, 제31권 제8호, 888–893쪽, 2025년 8월.'
     - year: 2025
-      text: '정주상, 이동현, I Made Putra Arya Winata, 유수정, 오정현, "스테레오 RGB-E를 이용한 동적 환경에서 강인한 SLAM 방법," 로봇학회논문지, 제20권, 2호, pp. 260-267, 2025년 6월.'
+      text: '정주상, 이동현, I Made Putra Arya Winata, 유수정, 오정현, "스테레오 RGB-E를 이용한 동적 환경에서 강인한 SLAM 방법," <em>로봇학회논문지</em>, 제20권 제2호, 260–267쪽, 2025년 6월.'
     - year: 2025
-      text: '왕진훈, 정주상, 조범수, I Made Putra Arya Winata, 오정현, "열화상 이미지를 활용한 Gaussian Splatting 기반의 저조도 3D 렌더링 개선 방법," 로봇학회논문지, 제20권, 1호, pp. 104-111, 2025년 3월.'
+      text: '왕진훈, 정주상, 조범수, I Made Putra Arya Winata, 오정현, "열화상 이미지를 활용한 Gaussian Splatting 기반의 저조도 3D 렌더링 개선 방법," <em>로봇학회논문지</em>, 제20권 제1호, 104–111쪽, 2025년 3월.'
     - year: 2023
-      text: '정지훈, 유동길, 오정현, "가우시안 프로세스 회귀와 OctoMap을 이용한 3차원 방사선 지도 제작," 제어로봇시스템학회논문지, 제29권, 4호, pp. 320-324, 2023년 4월.'
+      text: '정지훈, 유동길, 오정현, "가우시안 프로세스 회귀와 OctoMap을 이용한 3차원 방사선 지도 제작," <em>제어로봇시스템학회논문지</em>, 제29권 제4호, 320–324쪽, 2023년 4월.'
     - year: 2023
-      text: '유동길, 정지훈, 전형준, 한창완, 박일우, 오정현, "저조도 환경에서 Visual SLAM을 위한 이미지 개선 방법," 로봇학회논문지, 제18권, 1호, pp. 66-71, 2023년 3월.'
+      text: '유동길, 정지훈, 전형준, 한창완, 박일우, 오정현, "저조도 환경에서 Visual SLAM을 위한 이미지 개선 방법," <em>로봇학회논문지</em>, 제18권 제1호, 66–71쪽, 2023년 3월.'
     - year: 2020
-      text: '이흥재, 오정현, "확장된 토폴로지를 갖는 배전변전소의 지능형 고장복구 알고리즘의 연구," 전기학회논문지, 제69권, 6호, pp. 846-854, 2020년 6월.'
+      text: '이흥재, 오정현, "확장된 토폴로지를 갖는 배전변전소의 지능형 고장복구 알고리즘의 연구," <em>전기학회논문지</em>, 제69권 제6호, 846–854쪽, 2020년 6월.'
     - year: 2019
-      text: '오정현, 이범희, "Deep convolutional auto-encoder를 이용한 환경 변화에 강인한 장소 인식," 로봇학회논문지, 제14권, 1호, pp. 8-13, 2019년 3월.'
+      text: '오정현, 이범희, "Deep convolutional auto-encoder를 이용한 환경 변화에 강인한 장소 인식," <em>로봇학회논문지</em>, 제14권 제1호, 8–13쪽, 2019년 3월.'
 
 - id: intl-confs
   title: International Conferences
