@@ -88,55 +88,55 @@
   title: International Conferences
   items:
     - year: 2026
-      text: 'Ida Bagus Dwiweka Naratama, I Made Putra Arya Winata, and Junghyun Oh*, "Latent flow matching for uncertainty-aware 3D scene graph completion from partial robot observations," 26th International Conference on Control, Automation and Systems (ICCAS), 2026 (accepted).'
+      text: 'Ida Bagus Dwiweka Naratama, I Made Putra Arya Winata, and Junghyun Oh*, "Latent flow matching for uncertainty-aware 3D scene graph completion from partial robot observations," accepted for presentation at the <em>International Conference on Control, Automation and Systems</em>, 2026.'
     - year: 2026
-      text: 'I Made Putra Arya Winata, Anggra Anwari, and Junghyun Oh*, "Motion-aware LiDAR adaptation with an inflated unsafe set for multi-agent safe navigation," 26th International Conference on Control, Automation and Systems (ICCAS), 2026 (accepted).'
+      text: 'I Made Putra Arya Winata, Anggra Anwari, and Junghyun Oh*, "Motion-aware LiDAR adaptation with an inflated unsafe set for multi-agent safe navigation," accepted for presentation at the <em>International Conference on Control, Automation and Systems</em>, 2026.'
     - year: 2026
-      text: 'Sangcheol Oh and Junghyun Oh*, "Reliability-weighted active Gaussian reconstruction under camera pose uncertainty," 26th International Conference on Control, Automation and Systems (ICCAS), 2026 (accepted).'
+      text: 'Sangcheol Oh and Junghyun Oh*, "Reliability-weighted active Gaussian reconstruction under camera pose uncertainty," accepted for presentation at the <em>International Conference on Control, Automation and Systems</em>, 2026.'
     - year: 2026
-      text: 'Yuri Song, Yeonjin Kim, and Junghyun Oh*, "Human-in-the-loop replanning for instruction-guided object retrieval in fire environments," 26th International Conference on Control, Automation and Systems (ICCAS), 2026 (accepted).'
+      text: 'Yuri Song, Yeonjin Kim, and Junghyun Oh*, "Human-in-the-loop replanning for instruction-guided object retrieval in fire environments," accepted for presentation at the <em>International Conference on Control, Automation and Systems</em>, 2026.'
     - year: 2026
-      text: 'I Made Putra Arya Winata, Sangcheol Oh, and Junghyun Oh, "Reachability on navigation for multi-robot systems with time-varying expanding obstacle," in Proceedings of the Asian Control Conference, Bali, Indonesia, Jun. 17-21, 2026, pp. 1263-1268.'
+      text: 'I Made Putra Arya Winata, Sangcheol Oh, and Junghyun Oh, "Reachability on navigation for multi-robot systems with time-varying expanding obstacle," in <em>Proceedings of the Asian Control Conference</em>, Bali, Indonesia, Jun. 17–21, 2026, pp. 1263–1268.'
     - year: 2025
-      text: 'I Made Putra Arya Winata, Donghyun Lee, Ida Bagus Dwiweka Naratama, and Junghyun Oh, "Attention-guided semantic navigation learning from pose, goal text, and visual via exponential reward functions," in Proceedings of the International Conference on Control, Automation, and Systems, Incheon, South Korea, Nov. 4-7, 2025, pp. 139-144.'
+      text: 'I Made Putra Arya Winata, Donghyun Lee, Ida Bagus Dwiweka Naratama, and Junghyun Oh, "Attention-guided semantic navigation learning from pose, goal text, and visual via exponential reward functions," in <em>Proceedings of the International Conference on Control, Automation, and Systems</em>, Incheon, South Korea, Nov. 4–7, 2025, pp. 139–144.'
     - year: 2025
-      text: 'Woonghee Lee, I Made Putra Arya Winata, Donghyun Lee, and Junghyun Oh, "Dynamic target prioritization and adaptive path planning for indoor multi-object navigation," in Proceedings of the International Conference on Control, Automation, and Systems, Incheon, South Korea, Nov. 4-7, 2025, pp. 133-135.'
+      text: 'Woonghee Lee, I Made Putra Arya Winata, Donghyun Lee, and Junghyun Oh, "Dynamic target prioritization and adaptive path planning for indoor multi-object navigation," in <em>Proceedings of the International Conference on Control, Automation, and Systems</em>, Incheon, South Korea, Nov. 4–7, 2025, pp. 133–135.'
     - year: 2024
-      text: 'Donghyun Lee, Jinhoon Wang, Beomsu Cho, and Junghyun Oh, "Enhancing neural implicit representation based SLAM performance through depth image smoothing utilizing depth aware gradients," in Proceedings of the International Conference on Control, Automation, and Systems, Jeju, South Korea, Oct. 29-Nov. 1, 2024, pp. 1556-1559.'
+      text: 'Donghyun Lee, Jinhoon Wang, Beomsu Cho, and Junghyun Oh, "Enhancing neural implicit representation based SLAM performance through depth image smoothing utilizing depth aware gradients," in <em>Proceedings of the International Conference on Control, Automation, and Systems</em>, Jeju, South Korea, Oct. 29–Nov. 1, 2024, pp. 1556–1559.'
     - year: 2024
-      text: 'Jinhoon Wang, Woonghee Lee, I Made Putra Arya Winata, and Junghyun Oh, "Similar image avoidance policy based on image similarity measurement for next best view," in Proceedings of the International Conference on Control, Automation, and Systems, Jeju, South Korea, Oct. 29-Nov. 1, 2024, pp. 1552-1555.'
+      text: 'Jinhoon Wang, Woonghee Lee, I Made Putra Arya Winata, and Junghyun Oh, "Similar image avoidance policy based on image similarity measurement for next best view," in <em>Proceedings of the International Conference on Control, Automation, and Systems</em>, Jeju, South Korea, Oct. 29–Nov. 1, 2024, pp. 1552–1555.'
     - year: 2024
-      text: 'Jusang Jeong, Beomsu Cho, and Junghyun Oh, "EOGS: Event only 3D Gaussian splatting for 3D reconstruction," in Proceedings of the International Conference on Control, Automation, and Systems, Jeju, South Korea, Oct. 29-Nov. 1, 2024, pp. 1550-1551.'
+      text: 'Jusang Jeong, Beomsu Cho, and Junghyun Oh, "EOGS: Event only 3D Gaussian splatting for 3D reconstruction," in <em>Proceedings of the International Conference on Control, Automation, and Systems</em>, Jeju, South Korea, Oct. 29–Nov. 1, 2024, pp. 1550–1551.'
     - year: 2023
-      text: 'Donggil You, Jihoon Jung, Jusang Jeong, and Junghyun Oh, "Enhancing depth image with richer convolution feature for improved perception," in Proceedings of the International Conference on Control, Automation, and Systems, Yeosu, South Korea, Oct. 17-20, 2023, pp. 1866-1869.'
+      text: 'Donggil You, Jihoon Jung, Jusang Jeong, and Junghyun Oh, "Enhancing depth image with richer convolution feature for improved perception," in <em>Proceedings of the International Conference on Control, Automation, and Systems</em>, Yeosu, South Korea, Oct. 17–20, 2023, pp. 1866–1869.'
     - year: 2023
-      text: 'Jihoon Jung, Donggil You, Woonghee Lee and Junghyun Oh, "PR-ShadowNet: Shadow removal for long-term place recognition," in Proceedings of the International Conference on Control, Automation, and Systems, Yeosu, South Korea, Oct. 17-20, 2023, pp. 852-855.'
+      text: 'Jihoon Jung, Donggil You, Woonghee Lee, and Junghyun Oh, "PR-ShadowNet: Shadow removal for long-term place recognition," in <em>Proceedings of the International Conference on Control, Automation, and Systems</em>, Yeosu, South Korea, Oct. 17–20, 2023, pp. 852–855.'
     - year: 2022
-      text: 'Changwan Han, Hyeongjun Jeon, Donggil You, and Junghyun Oh, "Detection of moving objects in complex urban environments based on residual-image and segment," in Proceedings of the International Conference on Control, Automation, and Systems, Busan, South Korea, Nov. 27-Dec. 1, 2022, pp. 700-701.'
+      text: 'Changwan Han, Hyeongjun Jeon, Donggil You, and Junghyun Oh, "Detection of moving objects in complex urban environments based on residual-image and segment," in <em>Proceedings of the International Conference on Control, Automation, and Systems</em>, Busan, South Korea, Nov. 27–Dec. 1, 2022, pp. 700–701.'
     - year: 2022
-      text: 'Hyeongjun Jeon, Changwan Han, Donggil You, and Junghyun Oh, "RGB-D visual SLAM algorithm using scene flow and conditional random field in dynamic environments," in Proceedings of the International Conference on Control, Automation, and Systems, Busan, South Korea, Nov. 27-Dec. 1, 2022, pp. 129-134.'
+      text: 'Hyeongjun Jeon, Changwan Han, Donggil You, and Junghyun Oh, "RGB-D visual SLAM algorithm using scene flow and conditional random field in dynamic environments," in <em>Proceedings of the International Conference on Control, Automation, and Systems</em>, Busan, South Korea, Nov. 27–Dec. 1, 2022, pp. 129–134.'
     - year: 2021
-      text: 'Chan H. Kim and Jung H. Oh, "Dynamic window approach to coverage path planning for mobile robots with limited visibility," presented at the International Conference on Control, Automation, and Systems Workshop, Jeju, South Korea, Oct. 12-15, 2021.'
+      text: 'Chan Hyeok Kim and Junghyun Oh, "Dynamic window approach to coverage path planning for mobile robots with limited visibility," presented at the <em>International Conference on Control, Automation, and Systems Workshop</em>, Jeju, South Korea, Oct. 12–15, 2021.'
     - year: 2020
-      text: 'Jung H. Oh, Chan Hyeok Kim, and Dong Gyu Lee, "Coverage planning for security robots with limited field of view," presented at the International Conference on Control, Automation, and Systems Workshop, Busan, South Korea, Oct. 13-16, 2020.'
+      text: 'Junghyun Oh, Chan Hyeok Kim, and Dong Gyu Lee, "Coverage planning for security robots with limited field of view," presented at the <em>International Conference on Control, Automation, and Systems Workshop</em>, Busan, South Korea, Oct. 13–16, 2020.'
     - year: 2020
-      text: 'Jung H. Oh and Heung-Jae Lee, "Object-based place recognition for mobile robots using Laplace’s rule of succession," in Proceedings of the International Conference on Computer and Automation Engineering, Sydney, Australia, Feb. 14-16, 2020, pp. 200-204.'
+      text: 'Junghyun Oh and Heungjae Lee, "Object-based place recognition for mobile robots using Laplace’s rule of succession," in <em>Proceedings of the International Conference on Computer and Automation Engineering</em>, Sydney, Australia, Feb. 14–16, 2020, pp. 200–204.'
     - year: 2019
-      text: 'Jung H. Oh and Heung-Jae Lee, "Global alignment of deep features for robot localization in changing environment," in Proceedings of the European Conference on Electrical Engineering and Computer Science, Athens, Greece, Dec. 28-30, 2019, pp. 72-75.'
+      text: 'Junghyun Oh and Heungjae Lee, "Global alignment of deep features for robot localization in changing environment," in <em>Proceedings of the European Conference on Electrical Engineering and Computer Science</em>, Athens, Greece, Dec. 28–30, 2019, pp. 72–75.'
     - year: 2019
-      text: 'Heung-Jae Lee and Jung-Hyun Oh, "Restoration aid expert system for power system," in Proceedings of the International Conference on Power, Energy and Electrical Engineering, London, UK, Dec. 19-21, 2019, vol. 152.'
+      text: 'Heungjae Lee and Junghyun Oh, "Restoration aid expert system for power system," in <em>Proceedings of the International Conference on Power, Energy and Electrical Engineering</em>, London, UK, Dec. 19–21, 2019, vol. 152.'
     - year: 2017
-      text: 'Jung H. Oh and Beom H. Lee, "Object map building on various terrains for a wheeled mobile robot," in Proceedings of the IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems, Daegu, South Korea, Nov. 16-18, 2017, pp. 378-383.'
+      text: 'Junghyun Oh and Beom Hee Lee, "Object map building on various terrains for a wheeled mobile robot," in <em>Proceedings of the IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems</em>, Daegu, South Korea, Nov. 16–18, 2017, pp. 378–383.'
     - year: 2017
-      text: 'Kyunghoon Cho, Geonho Cha, Jung H. Oh, Beom H. Lee, and Songwhai Oh, "Surface Recognition Using Dash Robot," in Proceedings of the International Conference on Control, Automation and Systems, Jeju, South Korea, Oct. 18-21, 2017, pp. 1680-1681.'
+      text: 'Kyunghoon Cho, Geonho Cha, Junghyun Oh, Beom Hee Lee, and Songhwai Oh, "Surface recognition using Dash robot," in <em>Proceedings of the International Conference on Control, Automation and Systems</em>, Jeju, South Korea, Oct. 18–21, 2017, pp. 1680–1681.'
     - year: 2016
-      text: 'Jung H. Oh, H. S. Lee, and Beom H. Lee, "Unsupervised feature learning for sequence-based loop closure detection in changing environments," in Proceedings of the International Conference on Control, Automation and Systems, Gyeongju, South Korea, Oct. 16-19, 2016, pp. 1518-1520.'
+      text: 'Junghyun Oh, Hunsue Lee, and Beom Hee Lee, "Unsupervised feature learning for sequence-based loop closure detection in changing environments," in <em>Proceedings of the International Conference on Control, Automation and Systems</em>, Gyeongju, South Korea, Oct. 16–19, 2016, pp. 1518–1520.'
     - year: 2016
-      text: 'Wonsok Yoo, Jae Do Jeon, Jung H. Oh, and Beom H. Lee, "Loop closure detection with 2D laser range finder for graph SLAM in indoor environments," in Proceedings of the International Conference on Control, Automation and Systems, Gyeongju, South Korea, Oct. 16-19, 2016, pp. 1514-1517.'
+      text: 'Wonsok Yoo, Jae Do Jeon, Junghyun Oh, and Beom Hee Lee, "Loop closure detection with 2D laser range finder for graph SLAM in indoor environments," in <em>Proceedings of the International Conference on Control, Automation and Systems</em>, Gyeongju, South Korea, Oct. 16–19, 2016, pp. 1514–1517.'
     - year: 2016
-      text: 'Hunsue Lee, Junghyun Oh, Jaedo Jeon, and Beomhee Lee, "Efficient deployment of energy-constrained unmanned aerial vehicles in 3-dimensional space," in Proceedings of the International Conference on Informatics in Control, Automation, and Robotics, Lisbon, Portugal, July 29-31, 2016, pp. 446-451.'
+      text: 'Hunsue Lee, Junghyun Oh, Jae Do Jeon, and Beom Hee Lee, "Efficient deployment of energy-constrained unmanned aerial vehicles in 3-dimensional space," in <em>Proceedings of the International Conference on Informatics in Control, Automation, and Robotics</em>, Lisbon, Portugal, Jul. 29–31, 2016, pp. 446–451.'
     - year: 2015
-      text: 'H. S. Lee, J. H. Oh, and B. H. Lee, "Design and implementation for multiple-robot deployment in intelligent space," in Proceedings of the IEEE International Conference on Emerging Technologies and Factory Automation, Luxembourg, Luxembourg, Sep. 8-11, 2015, pp. 1-4.'
+      text: 'Hunsue Lee, Junghyun Oh, and Beom Hee Lee, "Design and implementation for multiple-robot deployment in intelligent space," in <em>Proceedings of the IEEE International Conference on Emerging Technologies and Factory Automation</em>, Luxembourg, Luxembourg, Sep. 8–11, 2015, pp. 1–4.'
 
 - id: domestic-confs
   title: Domestic Conferences
