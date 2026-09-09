@@ -34,6 +34,21 @@ title: Home
         <div class="card h-100">
           <div class="card-body">
             <span class="badge text-bg-dark mb-2">Featured</span>
+            <img class="img-fluid rounded mb-3 highlight-img" style="object-fit: contain;" src="/assets/img/ij29.png" alt="PA-HITL object retrieval timeline showing user acceptance and rejection of replanning suggestions as fire risk changes">
+            <h2 class="h5">Priority-aware human-in-the-loop replanning for instruction-conditioned object retrieval in dynamic fire environments</h2>
+            <p class="text-muted">We propose PA-HITL, a replanning framework that asks users to approve retrieval order changes when predicted fire risk conflicts with their instructions, preserving user priorities while improving safety.</p>
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <span class="badge text-bg-secondary">Human-in-the-Loop</span>
+              <span class="badge text-bg-secondary">Disaster Robotics</span>
+            </div>
+            <a class="btn btn-outline-dark btn-sm" href="/publications/">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <span class="badge text-bg-dark mb-2">Featured</span>
             <img class="img-fluid rounded mb-3 highlight-img" src="/assets/img/ij28.png" alt="Prediction-conditioned reachability framework for safe crowd navigation">
             <h2 class="h5">Uncertainty-calibrated Hamilton-Jacobi value learning for safe crowd navigation</h2>
             <p class="text-muted">We combine pedestrian prediction, learned Hamilton-Jacobi reachability, and conformal uncertainty calibration within MPC to enable efficient and reliable navigation in dense and out-of-distribution crowds.</p>
@@ -55,21 +70,6 @@ title: Home
             <div class="d-flex flex-wrap gap-2 mb-3">
               <span class="badge text-bg-secondary">Humanoid Robot</span>
               <span class="badge text-bg-secondary">Mechanical Design</span>
-            </div>
-            <a class="btn btn-outline-dark btn-sm" href="/publications/">Read More</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="card h-100">
-          <div class="card-body">
-            <span class="badge text-bg-dark mb-2">Featured</span>
-            <img class="img-fluid rounded mb-3 highlight-img" src="/assets/img/ij26.png" alt="Featured research image">
-            <h2 class="h5">Dynamic prioritization and adaptive path planning for indoor multi-object navigation</h2>
-            <p class="text-muted">We propose a multi-object navigation method that dynamically selects target order and plans efficient paths in cluttered indoor environments.</p>
-            <div class="d-flex flex-wrap gap-2 mb-3">
-              <span class="badge text-bg-secondary">Path Planning</span>
-              <span class="badge text-bg-secondary">Multi-object Navigation</span>
             </div>
             <a class="btn btn-outline-dark btn-sm" href="/publications/">Read More</a>
           </div>
