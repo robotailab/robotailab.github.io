@@ -75,21 +75,6 @@ title: Home
           </div>
         </div>
       </div>
-      <div class="col-lg-4">
-        <div class="card h-100">
-          <div class="card-body">
-            <span class="badge text-bg-dark mb-2">Featured</span>
-            <img class="img-fluid rounded mb-3 highlight-img" src="/assets/img/ij27.png" alt="Featured research image">
-            <h2 class="h5">Mechanical design of a giant human riding biped humanoid robot, Method II</h2>
-            <p class="text-muted">This paper presents the mechanical design of a human-ridable giant humanoid robot that enables intuitive, pilot-in-the-loop whole-body control.</p>
-            <div class="d-flex flex-wrap gap-2 mb-3">
-              <span class="badge text-bg-secondary">Humanoid Robot</span>
-              <span class="badge text-bg-secondary">Mechanical Design</span>
-            </div>
-            <a class="btn btn-outline-dark btn-sm" href="/publications/">Read More</a>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </section>
