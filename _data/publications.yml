@@ -2,9 +2,11 @@
   title: International Journals
   items:
     - year: 2026
-      text: 'Yuri Song, Yeonjin Kim, and Junghyun Oh*, "Priority-aware human-in-the-loop replanning for instruction-conditioned object retrieval in dynamic fire environments," <em>International Journal of Control, Automation and Systems</em>, to be published.'
+      text: 'Jusang Jeong and Junghyun Oh, "Noise-aware event-based image reconstruction using 3D Gaussian splatting under degraded imaging conditions," <em>IET Image Processing</em>, accepted.'
     - year: 2026
-      text: 'I Made Putra Arya Winata and Junghyun Oh*, "Uncertainty-calibrated Hamilton-Jacobi value learning for safe crowd navigation," <em>IEEE Robotics and Automation Letters</em>, to be published.'
+      text: 'Yuri Song, Yeonjin Kim, and Junghyun Oh*, "Priority-aware human-in-the-loop replanning for instruction-conditioned object retrieval in dynamic fire environments," <em>International Journal of Control, Automation and Systems</em>, accepted.'
+    - year: 2026
+      text: 'I Made Putra Arya Winata and Junghyun Oh*, "Uncertainty-calibrated Hamilton-Jacobi value learning for safe crowd navigation," <em>IEEE Robotics and Automation Letters</em>, accepted.'
     - year: 2026
       text: 'Ill-Woo Park, Junghyun Oh, and Suhan Park*, "Mechanical design of a giant human riding biped humanoid robot, Method II," <em>International Journal of Humanoid Robotics</em>, vol. 23, no. 2, Art. no. 2650002, Mar. 2026.'
     - year: 2025

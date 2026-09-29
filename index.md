@@ -34,6 +34,21 @@ title: Home
         <div class="card h-100">
           <div class="card-body">
             <span class="badge text-bg-dark mb-2">Featured</span>
+            <img class="img-fluid rounded mb-3 highlight-img" style="object-fit: contain;" src="/assets/img/ij30.png" alt="Color images, event data, and grayscale reconstructions of a loader, chair, and potted plant">
+            <h2 class="h5">Noise-aware event-based image reconstruction using 3D Gaussian splatting under degraded imaging conditions</h2>
+            <p class="text-muted">We study noise-aware image reconstruction from event data using 3D Gaussian splatting under degraded imaging conditions.</p>
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <span class="badge text-bg-secondary">Event-Based Vision</span>
+              <span class="badge text-bg-secondary">3D Gaussian Splatting</span>
+            </div>
+            <a class="btn btn-outline-dark btn-sm" href="/publications/">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <span class="badge text-bg-dark mb-2">Featured</span>
             <img class="img-fluid rounded mb-3 highlight-img" style="object-fit: contain;" src="/assets/img/ij29.png" alt="PA-HITL object retrieval timeline showing user acceptance and rejection of replanning suggestions as fire risk changes">
             <h2 class="h5">Priority-aware human-in-the-loop replanning for instruction-conditioned object retrieval in dynamic fire environments</h2>
             <p class="text-muted">We propose PA-HITL, a replanning framework that asks users to approve retrieval order changes when predicted fire risk conflicts with their instructions, preserving user priorities while improving safety.</p>
