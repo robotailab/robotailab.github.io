@@ -1,11 +1,12 @@
 robots:
   # Product source: https://microbots.io/products/protobot
-  # Image source: https://microbots.io/cdn/shop/files/protobot_main.webp?v=1774877423&width=1024&format=jpg
+  # Original image source: https://microbots.io/cdn/shop/files/protobot_main.webp?v=1774877423&width=1024&format=jpg
+  # Background removed with ImageGen; saved as a transparent PNG.
   - name: Microbots ProtoBot
     maker: Microbots
     model: ProtoBot
     year_label: "2026"
-    image: /assets/img/equipment/protobot.jpg
+    image: /assets/img/equipment/protobot.png
     alt: Microbots ProtoBot wheeled mobile robot
     tags:
       - Mobile
