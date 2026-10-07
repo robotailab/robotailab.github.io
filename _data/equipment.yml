@@ -1,4 +1,15 @@
 robots:
+  # Product source: https://microbots.io/products/protobot
+  # Image source: https://microbots.io/cdn/shop/files/protobot_main.webp?v=1774877423&width=1024&format=jpg
+  - name: Microbots ProtoBot
+    maker: Microbots
+    model: ProtoBot
+    year_label: "2026"
+    image: /assets/img/equipment/protobot.jpg
+    alt: Microbots ProtoBot wheeled mobile robot
+    tags:
+      - Mobile
+      - Wheeled
   - name: AgileX Scout Mini
     maker: AgileX
     model: Scout Mini
@@ -84,6 +95,17 @@ robots:
       - Wheeled
 
 sensors:
+  # Product source: https://www.vive.com/us/accessory/base-station2/
+  # Image source: https://www.vive.com/media/filer_public/vive/filer_public/bs20-576-576.png
+  - name: HTC VIVE Lighthouse Localization
+    maker: HTC VIVE
+    model: Lighthouse Localization
+    year_label: "2026"
+    image: /assets/img/equipment/lighthouselocalization.png
+    alt: HTC VIVE SteamVR base station for Lighthouse localization
+    tags:
+      - Localization
+      - 3D Tracking
   - name: Hokuyo UST-10LX
     maker: Hokuyo
     model: UST-10LX

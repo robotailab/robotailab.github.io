@@ -34,7 +34,9 @@ permalink: /equipment/
                       {% else %}
                       <span class="badge text-bg-dark equipment-title-badge">{{ robot.name }}</span>
                       {% endif %}
+                      {% if robot.year_label and robot.year_label != "" %}
                       <span class="badge text-bg-dark equipment-title-badge">{{ robot.year_label }}</span>
+                      {% endif %}
                     </div>
                   </div>
                   <img class="card-img-top equipment-img" src="{{ robot.image }}" alt="{{ robot.alt }}">
@@ -73,7 +75,9 @@ permalink: /equipment/
                       {% else %}
                       <span class="badge text-bg-dark equipment-title-badge">{{ sensor.name }}</span>
                       {% endif %}
+                      {% if sensor.year_label and sensor.year_label != "" %}
                       <span class="badge text-bg-dark equipment-title-badge">{{ sensor.year_label }}</span>
+                      {% endif %}
                     </div>
                   </div>
                   <img class="card-img-top equipment-img" src="{{ sensor.image }}" alt="{{ sensor.alt }}">
@@ -112,7 +116,9 @@ permalink: /equipment/
                       {% else %}
                       <span class="badge text-bg-dark equipment-title-badge">{{ item.name }}</span>
                       {% endif %}
+                      {% if item.year_label and item.year_label != "" %}
                       <span class="badge text-bg-dark equipment-title-badge">{{ item.year_label }}</span>
+                      {% endif %}
                     </div>
                   </div>
                   <img class="card-img-top equipment-img" src="{{ item.image }}" alt="{{ item.alt }}">
