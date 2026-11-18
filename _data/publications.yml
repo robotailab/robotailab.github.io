@@ -146,6 +146,8 @@
   title: Domestic Conferences
   items:
     - year: 2026
+      text: '안병규, 오상철, 오정현, "환경 특성 및 초기 자세 오차에 따른 GICP 기반 3차원 LiDAR 포인트 클라우드 정합 성능 분석," <em>정보및제어학술대회</em>, 2026년 11월, 463–464쪽.'
+    - year: 2026
       text: 'I Made Putra Arya Winata, 김연진, Anggra Anwari, 오정현, "운동 예측 기반 확장 제어 배리어 함수를 이용한 안전한 다중 에이전트 시스템," <em>제어로봇시스템학회학술대회</em>, 2026년 7월, 154–155쪽.'
     - year: 2026
       text: '송유리, 오상철, Ida Bagus Dwiweka Naratama, 오정현, "화재 전파 예측 시공간 그래프 신경망을 이용한 재난 구조 에이전트," <em>제어로봇시스템학회학술대회</em>, 2026년 7월, 127–128쪽.'
