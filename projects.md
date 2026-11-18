@@ -22,7 +22,7 @@ permalink: /projects/
                 <div class="d-flex flex-wrap gap-2 align-items-center mb-2">
                   <span class="badge text-bg-dark project-badge">Featured</span>
                   <span class="badge text-bg-dark project-badge">국토교통과학기술진흥원(국토교통부)</span>
-                  <span class="badge text-bg-dark project-badge">2025.04 – 2028.12</span>
+                  <span class="badge text-bg-dark project-badge">2025.04 – <time datetime="2029-08-31">2029.08</time></span>
                 </div>
                 <h3 class="h5">로봇 친화형 건축물 설계·시공 및 운영·관리 핵심기술 개발</h3>
                 <span class="badge text-bg-secondary mb-1">Project Goal</span>
@@ -75,14 +75,14 @@ permalink: /projects/
                 <td class="text-muted project-org-cell">한국산업기술진흥원(교육부)</td>
               </tr>
               <tr class="border-top">
+                <td class="text-muted fw-semibold text-nowrap project-date project-date-cell">2025.04 – <time datetime="2029-08-31">2029.08</time></td>
+                <td class="project-title-cell">로봇 친화형 건축물 설계·시공 및 운영·관리 핵심기술 개발</td>
+                <td class="text-muted project-org-cell">국토교통과학기술진흥원(국토교통부)</td>
+              </tr>
+              <tr class="border-top">
                 <td class="text-muted fw-semibold text-nowrap project-date project-date-cell">2024.03 – 2029.02</td>
                 <td class="project-title-cell">첨단로봇산업 전문인력양성</td>
                 <td class="text-muted project-org-cell">한국산업기술진흥원(산업통상자원부)</td>
-              </tr>
-              <tr class="border-top">
-                <td class="text-muted fw-semibold text-nowrap project-date project-date-cell">2025.04 – 2028.12</td>
-                <td class="project-title-cell">로봇 친화형 건축물 설계·시공 및 운영·관리 핵심기술 개발</td>
-                <td class="text-muted project-org-cell">국토교통과학기술진흥원(국토교통부)</td>
               </tr>
               <tr class="border-top">
                 <td class="text-muted fw-semibold text-nowrap project-date project-date-cell">2024.07 – 2028.03</td>
