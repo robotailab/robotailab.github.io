@@ -94,11 +94,6 @@ permalink: /projects/
                 <td class="project-title-cell">지능형로봇 혁신융합대학</td>
                 <td class="text-muted project-org-cell">한국연구재단(교육부)</td>
               </tr>
-              <tr class="border-top">
-                <td class="text-muted fw-semibold text-nowrap project-date project-date-cell">2026.07 – 2026.11</td>
-                <td class="project-title-cell">첨단기술 트렌드에 대응하는 정책 연구(Ⅲ) - 디지털 제조 기술 : 디지털 제조 기술에 대한 이해와 그 특징</td>
-                <td class="text-muted project-org-cell">한국형사법무정책연구원</td>
-              </tr>
             </tbody>
           </table>
         </div>
@@ -113,6 +108,11 @@ permalink: /projects/
               <col style="width: 30%;">
             </colgroup>
             <tbody>
+              <tr class="border-top">
+                <td class="text-muted fw-semibold text-nowrap project-date project-date-cell">2026.07 – 2026.11</td>
+                <td class="project-title-cell">첨단기술 트렌드에 대응하는 정책 연구(Ⅲ) - 디지털 제조 기술 : 디지털 제조 기술에 대한 이해와 그 특징</td>
+                <td class="text-muted project-org-cell">한국형사법무정책연구원</td>
+              </tr>
               <tr class="border-top">
                 <td class="text-muted fw-semibold text-nowrap project-date project-date-cell">2024.12 – 2025.12</td>
                 <td class="project-title-cell">공동주택 건설생산성 혁신을 위한 다용도-건설작업로봇 설계 및 통합관리 기술 개발 기획</td>
